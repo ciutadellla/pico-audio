@@ -1,0 +1,6 @@
+#include "dspinst.h"
+#include "AudioStream.h"
+#include "AudioOutputI2S.h"
+#include "mixer.h"
+#include "synth_sine.h"
+#include "effect_envelope.h"
