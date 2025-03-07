@@ -426,8 +426,8 @@ bool AudioStream::update_setup(void) {
 		user_irq_num = tmp; // do last in case buffer empties during setup!
 	}
 
-#define UPDATE_PIN 14
-pinMode(UPDATE_PIN,OUTPUT);
+// #define UPDATE_PIN 14
+// pinMode(UPDATE_PIN,OUTPUT);
 
   update_scheduled = true;
   return true;
@@ -454,7 +454,7 @@ void software_isr(void)
 
 // void software_isr(void) // AudioStream::update_all()
 void AudioStream::update_all(void) {
-digitalWrite(UPDATE_PIN,1);	  
+// digitalWrite(UPDATE_PIN,1);	  
   AudioStream *p;
 
   // uint32_t totalcycles = ARM_DWT_CYCCNT;
@@ -477,16 +477,18 @@ digitalWrite(UPDATE_PIN,1);
   // 	AudioStream::cpu_cycles_total_max = totalcycles;
 
   // asm("DSB");
-digitalWrite(UPDATE_PIN,0);	  
+// digitalWrite(UPDATE_PIN,0);	  
 }
 
 
 void I2S_Transmitted(void)
 {
+/*
 #define UPDATE_I2S 15
 	static bool ps = false;
 	digitalWrite(UPDATE_I2S, ps);
 	ps = !ps;
+*/
 	
 	if (AudioStream::user_irq_num >= 0)
 		irq_set_pending(AudioStream::user_irq_num);
