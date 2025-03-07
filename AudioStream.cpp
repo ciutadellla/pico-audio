@@ -418,6 +418,7 @@ bool AudioStream::update_setup(void) {
   // NVIC_SET_PRIORITY(IRQ_SOFTWARE, 208); // 255 = lowest priority
   // NVIC_ENABLE_IRQ(IRQ_SOFTWARE);
 
+#if 0
   // ********** Timer **********
   // Calculate the interval in microseconds , for 48Khz sampling rate -> 375Hz
   uint64_t interval_us = 1000000 / (AUDIO_SAMPLE_RATE / AUDIO_BLOCK_SAMPLES);
@@ -428,6 +429,7 @@ bool AudioStream::update_setup(void) {
   if (!hardware_alarm_set_target(0, target_time)) {
     Serial.println("Failed to set up timer!");
   }
+#endif // 0
 
   // Initialize the timer
   // repeating_timer_t timer;
@@ -452,6 +454,7 @@ AudioStream *AudioStream::first_update = NULL;
 
 // void software_isr(void) // AudioStream::update_all()
 void AudioStream::update_all(void) {
+digitalWrite(UPDATE_PIN,1);	  
   AudioStream *p;
 
   // uint32_t totalcycles = ARM_DWT_CYCCNT;
@@ -474,6 +477,7 @@ void AudioStream::update_all(void) {
   // 	AudioStream::cpu_cycles_total_max = totalcycles;
 
   // asm("DSB");
+digitalWrite(UPDATE_PIN,0);	  
 }
 
 
@@ -485,9 +489,7 @@ void AudioStream::onTimer(uint alarm_num) {
   hardware_alarm_set_target(alarm_num, next_time);
 
   // if (i2s.availableForWrite() >= AUDIO_BLOCK_SAMPLES) {
-digitalWrite(UPDATE_PIN,1);	  
   AudioStream::update_all();
-digitalWrite(UPDATE_PIN,0);
   // }
 
   // return true;
@@ -499,4 +501,5 @@ void I2S_Transmitted(void)
 	static bool ps = false;
 	digitalWrite(UPDATE_I2S, ps);
 	ps = !ps;
+	AudioStream::update_all(); // sync updates with buffer transfer
 }

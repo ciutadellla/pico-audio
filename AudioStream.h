@@ -171,6 +171,7 @@ protected:
 	static void update_stop(void);
 	// static void update_all(void) {NVIC_SET_PENDING(IRQ_SOFTWARE);}
 	static void update_all(void);
+	friend void I2S_Transmitted(void); // used to call update_all()
   static void onTimer(uint alarm_um);
   // static bool onTimer(repeating_timer_t* timer);
 	friend void software_isr(void);
