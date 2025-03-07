@@ -128,7 +128,8 @@ class AudioStream
 {
 public:
 	AudioStream(unsigned char ninput, audio_block_t **iqueue) :
-		num_inputs(ninput), inputQueue(iqueue) {
+		num_inputs(ninput), inputQueue(iqueue)
+		{
 			active = false;
 			destination_list = NULL;
 			for (int i=0; i < num_inputs; i++) {
@@ -175,6 +176,7 @@ protected:
   static void onTimer(uint alarm_um);
   // static bool onTimer(repeating_timer_t* timer);
 	friend void software_isr(void);
+	static int user_irq_num;
 	friend class AudioConnection;
 #if defined(AUDIO_DEBUG_CLASS)
 	friend class AudioDebug;

@@ -47,6 +47,7 @@ uint16_t AudioStream::cpu_cycles_total_max = 0;
 uint16_t AudioStream::memory_used = 0;
 uint16_t AudioStream::memory_used_max = 0;
 AudioConnection *AudioStream::unused = NULL;  // linked list of unused but not destructed connections
+int AudioStream::user_irq_num = -1;
 
 void software_isr(void);
 
@@ -431,6 +432,19 @@ bool AudioStream::update_setup(void) {
   }
 #endif // 0
 
+#if 1
+#define AUDIO_IRQ_PRIORITY 0xD0 // only 4 bits significant on RP2350
+	int tmp = user_irq_claim_unused(false);
+	if (tmp >= 0)
+	{
+		irq_set_priority(tmp,AUDIO_IRQ_PRIORITY);
+		irq_set_exclusive_handler(tmp,software_isr);
+		irq_set_enabled(tmp,true);
+		user_irq_num = tmp; // do last in case buffer empties during setup!
+	}
+#endif // 1
+
+
   // Initialize the timer
   // repeating_timer_t timer;
   // int32_t interval_us = -1000000 / (AUDIO_SAMPLE_RATE / AUDIO_BLOCK_SAMPLES);
@@ -451,6 +465,11 @@ void AudioStream::update_stop(void) {
 }
 
 AudioStream *AudioStream::first_update = NULL;
+
+void software_isr(void)
+{
+	AudioStream::update_all(); // sync updates with buffer transfer
+}
 
 // void software_isr(void) // AudioStream::update_all()
 void AudioStream::update_all(void) {
@@ -501,5 +520,7 @@ void I2S_Transmitted(void)
 	static bool ps = false;
 	digitalWrite(UPDATE_I2S, ps);
 	ps = !ps;
-	AudioStream::update_all(); // sync updates with buffer transfer
+	
+	if (AudioStream::user_irq_num >= 0)
+		irq_set_pending(AudioStream::user_irq_num);
 }
