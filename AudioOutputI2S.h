@@ -22,6 +22,7 @@ inline AudioOutputI2S::AudioOutputI2S()
   : AudioStream(2, inputQueueArray) {
 }
 
+extern void I2S_Transmitted(void);
 inline void AudioOutputI2S::begin(uint pBCLK = 20, uint pWS = 21, uint pDOUT = 22) {
 
   // ********** I2S **********
@@ -31,6 +32,9 @@ inline void AudioOutputI2S::begin(uint pBCLK = 20, uint pWS = 21, uint pDOUT = 2
   i2s.setBitsPerSample(32 /* SAMPLE_BITS_DEPTH */);
   i2s.setFrequency(AUDIO_SAMPLE_RATE);
   i2s.setBuffers(6, AUDIO_BLOCK_SAMPLES * 8 * sizeof(int32_t) / sizeof(uint32_t));
+  
+pinMode(15,OUTPUT);  
+i2s.onTransmit(I2S_Transmitted);
 
   // start I2S at the sample rate with 16-bits per sample
   if (!i2s.begin()) {

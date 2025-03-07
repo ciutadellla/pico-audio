@@ -435,6 +435,9 @@ bool AudioStream::update_setup(void) {
   // // Set up a repeating timer that calls 'alarm_callback' every 1 second
   // Serial.println(add_repeating_timer_us(interval_us, AudioStream::onTimer, NULL, &timer));
 
+#define UPDATE_PIN 14
+pinMode(UPDATE_PIN,OUTPUT);
+
 
   update_scheduled = true;
   return true;
@@ -482,8 +485,18 @@ void AudioStream::onTimer(uint alarm_num) {
   hardware_alarm_set_target(alarm_num, next_time);
 
   // if (i2s.availableForWrite() >= AUDIO_BLOCK_SAMPLES) {
+digitalWrite(UPDATE_PIN,1);	  
   AudioStream::update_all();
+digitalWrite(UPDATE_PIN,0);
   // }
 
   // return true;
+}
+
+void I2S_Transmitted(void)
+{
+#define UPDATE_I2S 15
+	static bool ps = false;
+	digitalWrite(UPDATE_I2S, ps);
+	ps = !ps;
 }
