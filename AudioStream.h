@@ -170,11 +170,8 @@ protected:
 	audio_block_t * receiveWritable(unsigned int index = 0);
 	static bool update_setup(void);
 	static void update_stop(void);
-	// static void update_all(void) {NVIC_SET_PENDING(IRQ_SOFTWARE);}
 	static void update_all(void);
-	friend void I2S_Transmitted(void); // used to call update_all()
-  static void onTimer(uint alarm_um);
-  // static bool onTimer(repeating_timer_t* timer);
+	friend void I2S_Transmitted(void); // used to trigger update_all()
 	friend void software_isr(void);
 	static int user_irq_num;
 	friend class AudioConnection;
