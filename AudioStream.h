@@ -59,6 +59,9 @@
 #endif
 
 #define AUDIO_SAMPLE_RATE 48000
+#define SAMPLE_TYPE int16_t
+#define SAMPLE_BITS_DEPTH 16
+
 
 #define noAUDIO_DEBUG_CLASS // disable this class by default
 

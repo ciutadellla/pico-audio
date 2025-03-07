@@ -26,11 +26,11 @@ inline void AudioOutputI2S::begin(uint pBCLK = 20, uint pWS = 21, uint pDOUT = 2
 
   // ********** I2S **********
   i2s.setBCLK(pBCLK);
-  i2s.setMCLK(pWS);
+  //i2s.setMCLK(pWS);
   i2s.setDATA(pDOUT);
-  i2s.setBitsPerSample(SAMPLE_BITS_DEPTH);
+  i2s.setBitsPerSample(32 /* SAMPLE_BITS_DEPTH */);
   i2s.setFrequency(AUDIO_SAMPLE_RATE);
-  i2s.setBuffers(6, AUDIO_BLOCK_SAMPLES * 8 * sizeof(int16_t) / sizeof(uint32_t));
+  i2s.setBuffers(6, AUDIO_BLOCK_SAMPLES * 8 * sizeof(int32_t) / sizeof(uint32_t));
 
   // start I2S at the sample rate with 16-bits per sample
   if (!i2s.begin()) {
@@ -49,13 +49,13 @@ inline void AudioOutputI2S::update() {
     // When sending 0, some DAC will power off causing a hearable jump from silence to floor noise and cracks,
     // sending 1 is a workaround
     // Tested only with the PCM5100A
-    SAMPLE_TYPE sampleL = inputLeftBlock == NULL || inputLeftBlock->data[i] == 0 ? 1 : inputLeftBlock->data[i] * 0.1;
-    SAMPLE_TYPE sampleR = inputRightBlock == NULL || inputRightBlock->data[i] == 0 ? 1 : inputRightBlock->data[i] * 0.1;
-    if (SAMPLE_BITS_DEPTH == 32) {
-      i2s.write32(sampleL, sampleR);
-    } else if (SAMPLE_BITS_DEPTH == 16) {
-      i2s.write16(sampleL, sampleR);
-    }
+    SAMPLE_TYPE sampleL = inputLeftBlock == NULL || inputLeftBlock->data[i] == 0 ? 1 : inputLeftBlock->data[i];// * 0.1;
+    SAMPLE_TYPE sampleR = inputRightBlock == NULL || inputRightBlock->data[i] == 0 ? 1 : inputRightBlock->data[i];// * 0.1;
+//    if (SAMPLE_BITS_DEPTH == 32) {
+      i2s.write32((int32_t)sampleL*65536, (int32_t)sampleR*65536);
+//    } else if (SAMPLE_BITS_DEPTH == 16) {
+//      i2s.write16(sampleL, sampleR);
+//    }
   }
   
   if (inputLeftBlock) {
