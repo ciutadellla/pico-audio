@@ -47,6 +47,7 @@ uint16_t AudioStream::cpu_cycles_total_max = 0;
 uint16_t AudioStream::memory_used = 0;
 uint16_t AudioStream::memory_used_max = 0;
 AudioConnection *AudioStream::unused = NULL;  // linked list of unused but not destructed connections
+int AudioStream::user_irq_num = -1;
 
 void software_isr(void);
 
@@ -414,41 +415,46 @@ bool AudioStream::update_scheduled = false;
 
 bool AudioStream::update_setup(void) {
   if (update_scheduled) return false;
-  // attachInterruptVector(IRQ_SOFTWARE, software_isr);
-  // NVIC_SET_PRIORITY(IRQ_SOFTWARE, 208); // 255 = lowest priority
-  // NVIC_ENABLE_IRQ(IRQ_SOFTWARE);
+  
+#define AUDIO_IRQ_PRIORITY 0xD0 // only 4 bits significant on RP2350
+	int tmp = user_irq_claim_unused(false);
+	if (tmp >= 0)
+	{
+		irq_set_priority(tmp,AUDIO_IRQ_PRIORITY);
+		irq_set_exclusive_handler(tmp,software_isr);
+		irq_set_enabled(tmp,true);
+		user_irq_num = tmp; // do last in case buffer empties during setup!
+	}
 
-  // ********** Timer **********
-  // Calculate the interval in microseconds , for 48Khz sampling rate -> 375Hz
-  uint64_t interval_us = 1000000 / (AUDIO_SAMPLE_RATE / AUDIO_BLOCK_SAMPLES);
-
-  // Set up the hardware timer with precise timing
-  uint64_t target_time = time_us_64() + interval_us;
-  hardware_alarm_set_callback(0, AudioStream::onTimer);
-  if (!hardware_alarm_set_target(0, target_time)) {
-    Serial.println("Failed to set up timer!");
-  }
-
-  // Initialize the timer
-  // repeating_timer_t timer;
-  // int32_t interval_us = -1000000 / (AUDIO_SAMPLE_RATE / AUDIO_BLOCK_SAMPLES);
-  // // Set up a repeating timer that calls 'alarm_callback' every 1 second
-  // Serial.println(add_repeating_timer_us(interval_us, AudioStream::onTimer, NULL, &timer));
-
+// #define UPDATE_PIN 14
+// pinMode(UPDATE_PIN,OUTPUT);
 
   update_scheduled = true;
   return true;
 }
 
-void AudioStream::update_stop(void) {
-  // NVIC_DISABLE_IRQ(IRQ_SOFTWARE);
-  update_scheduled = false;
+void AudioStream::update_stop(void) 
+{
+	int tmp = user_irq_num;
+
+	user_irq_num = -1; // do first in case buffer empties during teardown!
+	irq_set_enabled(tmp,false);
+	irq_remove_handler(tmp,software_isr);
+	user_irq_unclaim(tmp);
+	
+	update_scheduled = false;
 }
 
 AudioStream *AudioStream::first_update = NULL;
 
+void software_isr(void)
+{
+	AudioStream::update_all(); // sync updates with buffer transfer
+}
+
 // void software_isr(void) // AudioStream::update_all()
 void AudioStream::update_all(void) {
+// digitalWrite(UPDATE_PIN,1);	  
   AudioStream *p;
 
   // uint32_t totalcycles = ARM_DWT_CYCCNT;
@@ -471,19 +477,19 @@ void AudioStream::update_all(void) {
   // 	AudioStream::cpu_cycles_total_max = totalcycles;
 
   // asm("DSB");
+// digitalWrite(UPDATE_PIN,0);	  
 }
 
 
-void AudioStream::onTimer(uint alarm_num) {
-// bool AudioStream::onTimer(repeating_timer_t* timer) {
-  // Schedule the next callback
-  uint64_t interval_us = 1000000 / (AUDIO_SAMPLE_RATE / AUDIO_BLOCK_SAMPLES);
-  uint64_t next_time = time_us_64() + interval_us;
-  hardware_alarm_set_target(alarm_num, next_time);
-
-  // if (i2s.availableForWrite() >= AUDIO_BLOCK_SAMPLES) {
-  AudioStream::update_all();
-  // }
-
-  // return true;
+void I2S_Transmitted(void)
+{
+/*
+#define UPDATE_I2S 15
+	static bool ps = false;
+	digitalWrite(UPDATE_I2S, ps);
+	ps = !ps;
+*/
+	
+	if (AudioStream::user_irq_num >= 0)
+		irq_set_pending(AudioStream::user_irq_num);
 }

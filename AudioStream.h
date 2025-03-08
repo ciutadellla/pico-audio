@@ -59,6 +59,9 @@
 #endif
 
 #define AUDIO_SAMPLE_RATE 48000
+#define SAMPLE_TYPE int16_t
+#define SAMPLE_BITS_DEPTH 16
+
 
 #define noAUDIO_DEBUG_CLASS // disable this class by default
 
@@ -125,7 +128,8 @@ class AudioStream
 {
 public:
 	AudioStream(unsigned char ninput, audio_block_t **iqueue) :
-		num_inputs(ninput), inputQueue(iqueue) {
+		num_inputs(ninput), inputQueue(iqueue)
+		{
 			active = false;
 			destination_list = NULL;
 			for (int i=0; i < num_inputs; i++) {
@@ -166,11 +170,10 @@ protected:
 	audio_block_t * receiveWritable(unsigned int index = 0);
 	static bool update_setup(void);
 	static void update_stop(void);
-	// static void update_all(void) {NVIC_SET_PENDING(IRQ_SOFTWARE);}
 	static void update_all(void);
-  static void onTimer(uint alarm_um);
-  // static bool onTimer(repeating_timer_t* timer);
+	friend void I2S_Transmitted(void); // used to trigger update_all()
 	friend void software_isr(void);
+	static int user_irq_num;
 	friend class AudioConnection;
 #if defined(AUDIO_DEBUG_CLASS)
 	friend class AudioDebug;
