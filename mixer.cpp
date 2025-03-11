@@ -26,7 +26,7 @@
 
 #include <Arduino.h>
 #include "mixer.h"
-#include "dspinst.h"
+#include "utility/dspinst.h"
 
 #define MULTI_UNITYGAIN 65536
 

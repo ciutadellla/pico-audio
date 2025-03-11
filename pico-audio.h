@@ -1,6 +1,7 @@
-#include "dspinst.h"
+#include "utility/dspinst.h"
 #include "AudioStream.h"
 #include "AudioOutputI2S.h"
 #include "mixer.h"
 #include "synth_sine.h"
 #include "effect_envelope.h"
+#include "synth_simple_drum.h"
