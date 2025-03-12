@@ -5,3 +5,4 @@
 #include "synth_sine.h"
 #include "effect_envelope.h"
 #include "synth_simple_drum.h"
+#include "play_memory.h"

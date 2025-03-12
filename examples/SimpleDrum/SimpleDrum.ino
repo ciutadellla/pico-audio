@@ -14,7 +14,7 @@ AudioConnection          patchCord3(drum1, 0, mixer1, 0);
 AudioConnection          patchCord4(drum4, 0, mixer1, 3);
 AudioConnection          patchCord5(mixer1, 0, i2s1, 0);
 AudioConnection          patchCord6(mixer1, 0, i2s1, 1);
-AudioControlSGTL5000     sgtl5000_1;     //xy=930,518
+// AudioControlSGTL5000     sgtl5000_1;     //xy=930,518
 // GUItool: end automatically generated code
 
 static uint32_t next;
@@ -29,7 +29,7 @@ void setup() {
 
   next = millis() + 1000;
 
-  AudioNoInterrupts();
+  // AudioNoInterrupts();
 
   drum1.frequency(60);
   drum1.length(1500);
@@ -51,10 +51,17 @@ void setup() {
   drum4.secondMix(0.0);
   drum4.pitchMod(0.0);
   
-  sgtl5000_1.enable();
-  sgtl5000_1.volume(0.5);
+  mixer1.gain(0, 0.5);
+  mixer1.gain(1, 0.5);
+  mixer1.gain(2, 0.5);
+  mixer1.gain(3, 0.5);
+  
+  // sgtl5000_1.enable();
+  // sgtl5000_1.volume(0.5);
 
-  AudioInterrupts();
+  // AudioInterrupts();
+
+  i2s1.begin();
 
 }
 
@@ -84,10 +91,10 @@ void loop() {
     }
     num++;
 
-    Serial.print("Diagnostics: ");
-    Serial.print(AudioProcessorUsageMax());
-    Serial.print(" ");
-    Serial.println(AudioMemoryUsageMax());
-    AudioProcessorUsageMaxReset();
+    // Serial.print("Diagnostics: ");
+    // Serial.print(AudioProcessorUsageMax());
+    // Serial.print(" ");
+    // Serial.println(AudioMemoryUsageMax());
+    // AudioProcessorUsageMaxReset();
   }
 }
