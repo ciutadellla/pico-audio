@@ -32,9 +32,9 @@
 #include <Arduino.h>
 #include "AudioStream.h"
 
-// #if defined(__IMXRT1062__)
+#if defined(__IMXRT1062__)
 #define MAX_AUDIO_MEMORY 229376
-// #endif
+#endif
 
 #define NUM_MASKS (((MAX_AUDIO_MEMORY / AUDIO_BLOCK_SAMPLES / 2) + 31) / 32)
 
@@ -53,15 +53,15 @@ void software_isr(void);
 
 // Set up the pool of audio data blocks
 // placing them all onto the free list
-void AudioStream::initialize_memory(audio_block_t *data, unsigned int num) {
+FLASHMEM void AudioStream::initialize_memory(audio_block_t *data, unsigned int num) 
+{
   unsigned int i;
   unsigned int maxnum = MAX_AUDIO_MEMORY / AUDIO_BLOCK_SAMPLES / 2;
 
   //Serial.println("AudioStream initialize_memory");
   //delay(10);
   if (num > maxnum) num = maxnum;
-  //__disable_irq();
-  noInterrupts();
+  __disable_irq();
   memory_pool = data;
   memory_pool_first_mask = 0;
   for (i = 0; i < NUM_MASKS; i++) {
@@ -74,22 +74,22 @@ void AudioStream::initialize_memory(audio_block_t *data, unsigned int num) {
     data[i].memory_pool_index = i;
   }
   if (update_scheduled == false) {
-    // 	// if no hardware I/O has taken responsibility for update,
-    // 	// start a timer which will call update_all() at the correct rate
-    // 	IntervalTimer *timer = new IntervalTimer();
-    // 	if (timer) {
-    // 		float usec = 1e6 * AUDIO_BLOCK_SAMPLES / AUDIO_SAMPLE_RATE_EXACT;
-    // 		timer->begin(update_all, usec);
+     	// if no hardware I/O has taken responsibility for update,
+     	// start a timer which will call update_all() at the correct rate
+     	IntervalTimer *timer = new IntervalTimer();
+     	if (timer) {
+     		float usec = 1e6 * AUDIO_BLOCK_SAMPLES / AUDIO_SAMPLE_RATE_EXACT;
+     		timer->begin(update_all, usec);
     update_setup();
-    // 	}
+     	}
   }
-  //__enable_irq();
-  interrupts();
+  __enable_irq();
 }
 
 // Allocate 1 audio data block.  If successful
 // the caller is the only owner of this new block
-audio_block_t *AudioStream::allocate(void) {
+audio_block_t * AudioStream::allocate(void)
+{
   uint32_t n, index, avail;
   uint32_t *p, *end;
   audio_block_t *block;
@@ -97,14 +97,12 @@ audio_block_t *AudioStream::allocate(void) {
 
   p = memory_pool_available_mask;
   end = p + NUM_MASKS;
-  //__disable_irq();
-  noInterrupts();
+	__disable_irq();
   index = memory_pool_first_mask;
   p += index;
   while (1) {
     if (p >= end) {
-      //__enable_irq();
-      interrupts();
+			__enable_irq();
       //Serial.println("alloc:null");
       return NULL;
     }
@@ -120,8 +118,7 @@ audio_block_t *AudioStream::allocate(void) {
   memory_pool_first_mask = index;
   used = memory_used + 1;
   memory_used = used;
-  //__enable_irq();
-  interrupts();
+	__enable_irq();
   index = p - memory_pool_available_mask;
   block = memory_pool + ((index << 5) + (31 - n));
   block->ref_count = 1;
@@ -134,13 +131,13 @@ audio_block_t *AudioStream::allocate(void) {
 // Release ownership of a data block.  If no
 // other streams have ownership, the block is
 // returned to the free pool
-void AudioStream::release(audio_block_t *block) {
+void AudioStream::release(audio_block_t *block)
+{
   //if (block == NULL) return;
   uint32_t mask = (0x80000000 >> (31 - (block->memory_pool_index & 0x1F)));
   uint32_t index = block->memory_pool_index >> 5;
 
-  //__disable_irq();
-  noInterrupts();
+	__disable_irq();
   if (block->ref_count > 1) {
     block->ref_count--;
   } else {
@@ -150,8 +147,7 @@ void AudioStream::release(audio_block_t *block) {
     if (index < memory_pool_first_mask) memory_pool_first_mask = index;
     memory_used--;
   }
-  //__enable_irq();
-  interrupts();
+	__enable_irq();
 }
 
 // Transmit an audio data block
@@ -161,7 +157,8 @@ void AudioStream::release(audio_block_t *block) {
 // by the caller after it's transmitted.  This allows the
 // caller to transmit to same block to more than 1 output,
 // and then release it once after all transmit calls.
-void AudioStream::transmit(audio_block_t *block, unsigned char index) {
+void AudioStream::transmit(audio_block_t *block, unsigned char index)
+{
   for (AudioConnection *c = destination_list; c != NULL; c = c->next_dest) {
     if (c->src_index == index) {
       if (c->dst->inputQueue[c->dest_index] == NULL) {
@@ -175,7 +172,8 @@ void AudioStream::transmit(audio_block_t *block, unsigned char index) {
 
 // Receive block from an input.  The block's data
 // may be shared with other streams, so it must not be written
-audio_block_t *AudioStream::receiveReadOnly(unsigned int index) {
+audio_block_t * AudioStream::receiveReadOnly(unsigned int index)
+{
   audio_block_t *in;
 
   if (index >= num_inputs) return NULL;
@@ -186,7 +184,8 @@ audio_block_t *AudioStream::receiveReadOnly(unsigned int index) {
 
 // Receive block from an input.  The block will not
 // be shared, so its contents may be changed.
-audio_block_t *AudioStream::receiveWritable(unsigned int index) {
+audio_block_t * AudioStream::receiveWritable(unsigned int index)
+{
   audio_block_t *in, *p;
 
   if (index >= num_inputs) return NULL;
@@ -217,7 +216,8 @@ AudioConnection::AudioConnection()
 
 
 // Destructor
-AudioConnection::~AudioConnection() {
+AudioConnection::~AudioConnection()
+{
   AudioConnection **pp;
 
   disconnect();  // disconnect ourselves: puts us on the unused list
@@ -230,13 +230,15 @@ AudioConnection::~AudioConnection() {
 }
 
 /**************************************************************************************/
-int AudioConnection::connect(void) {
+int AudioConnection::connect(void)
+{
   int result = 1;
   AudioConnection *p;
   AudioConnection **pp;
   AudioStream *s;
 
-  do {
+	do 
+	{
     if (isConnected)  // already connected
     {
       break;
@@ -254,19 +256,18 @@ int AudioConnection::connect(void) {
       break;
     }
 
-    //__disable_irq();
-    noInterrupts();
+		__disable_irq();
 
     // First check the destination's input isn't already in use
     s = AudioStream::first_update;  // first AudioStream in the stream list
     while (s)                       // go through all AudioStream objects
     {
       p = s->destination_list;  // first patchCord in this stream's list
-      while (p) {
-        if (p->dst == dst && p->dest_index == dest_index)  // same destination - it's in use!
-        {
-          //__enable_irq();
-          interrupts();
+			while (p)
+			{
+				if (p->dst == dst && p->dest_index == dest_index) // same destination - it's in use!
+				{
+					__enable_irq();
           return 4;
         }
         p = p->next_dest;
@@ -276,7 +277,8 @@ int AudioConnection::connect(void) {
 
     // Check we're on the unused list
     pp = &AudioStream::unused;
-    while (*pp && *pp != this) {
+		while (*pp && *pp != this)
+		{
       pp = &((*pp)->next_dest);
     }
     if (!*pp)  // never found ourselves - fail
@@ -287,17 +289,20 @@ int AudioConnection::connect(void) {
 
     // Now try to add this connection to the source's destination list
     p = src->destination_list;  // first AudioConnection
-    if (p == NULL) {
-      src->destination_list = this;
-    } else {
+		if (p == NULL) 
+		{
+			src->destination_list = this;
+		} 
+		else 
+		{
       while (p->next_dest)  // scan source Stream's connection list for duplicates
       {
 
         if (&p->src == &this->src && &p->dst == &this->dst
-            && p->src_index == this->src_index && p->dest_index == this->dest_index) {
-          //Source and destination already connected through another connection, abort
-          //__enable_irq();
-          interrupts();
+					&& p->src_index == this->src_index && p->dest_index == this->dest_index) 
+				{
+					//Source and destination already connected through another connection, abort
+					__enable_irq();
           return 6;
         }
         p = p->next_dest;
@@ -320,18 +325,19 @@ int AudioConnection::connect(void) {
     result = 0;
   } while (0);
 
-  //__enable_irq();
-  interrupts();
+	__enable_irq();
 
   return result;
 }
 
 
 int AudioConnection::connect(AudioStream &source, unsigned char sourceOutput,
-                             AudioStream &destination, unsigned char destinationInput) {
-  int result = 1;
-
-  if (!isConnected) {
+		AudioStream &destination, unsigned char destinationInput)
+{
+	int result = 1;
+	
+	if (!isConnected)
+	{
     src = &source;
     dst = &destination;
     src_index = sourceOutput;
@@ -342,20 +348,19 @@ int AudioConnection::connect(AudioStream &source, unsigned char sourceOutput,
   return result;
 }
 
-int AudioConnection::disconnect(void) {
+int AudioConnection::disconnect(void)
+{
   AudioConnection *p;
 
   if (!isConnected) return 1;
   if (dest_index >= dst->num_inputs) return 2;  // should never happen!
-                                                //__disable_irq();
-  noInterrupts();
+	__disable_irq();
 
   // Remove destination from source list
   p = src->destination_list;
   if (p == NULL) {
     //>>> PAH re-enable the IRQ
-    //__enable_irq();
-    interrupts();
+		__enable_irq();
     return 3;
   } else if (p == this) {
     if (p->next_dest) {
@@ -364,12 +369,14 @@ int AudioConnection::disconnect(void) {
       src->destination_list = NULL;
     }
   } else {
-    while (p) {
+		while (p)
+		{
       if (p->next_dest == this)  // found the parent of the disconnecting object
       {
         p->next_dest = this->next_dest;  // skip parent's link past us
         break;
-      } else
+			}
+			else
         p = p->next_dest;  // carry on down the list
     }
   }
@@ -378,8 +385,7 @@ int AudioConnection::disconnect(void) {
   if (dst->inputQueue[dest_index] != NULL) {
     AudioStream::release(dst->inputQueue[dest_index]);
     // release() re-enables the IRQ. Need it to be disabled a little longer
-    //__disable_irq();
-    noInterrupts();
+		__disable_irq();
     dst->inputQueue[dest_index] = NULL;
   }
 
@@ -398,8 +404,7 @@ int AudioConnection::disconnect(void) {
   next_dest = dst->unused;
   dst->unused = this;
 
-  //__enable_irq();
-  interrupts();
+	__enable_irq();
 
   return 0;
 }

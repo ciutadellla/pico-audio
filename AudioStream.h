@@ -37,6 +37,17 @@
 
 #endif
 
+#if defined(ARDUINO_RASPBERRY_PI_PICO_2)
+#define __IMXRT1062__  // pretend this is a Teensy 4.x
+#define FLASHMEM
+#define SAMPLE_BITS_DEPTH 16
+#define SAMPLE_TYPE int16_t
+#define ARM_DWT_CYCCNT (m33_hw->dwt_cyccnt)
+#define __disable_irq(...) noInterrupts()
+#define __enable_irq(...)    interrupts()
+#endif // defined(ARDUINO_RASPBERRY_PI_PICO_2)
+
+
 // AUDIO_BLOCK_SAMPLES determines how many samples the audio library processes
 // per update.  It may be reduced to achieve lower latency response to events,
 // at the expense of higher interrupt and DMA setup overhead.
