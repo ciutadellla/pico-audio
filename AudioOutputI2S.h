@@ -42,6 +42,7 @@ inline void AudioOutputI2S::begin(uint pBCLK = 20, uint pWS = 21, uint pDOUT = 2
     while (1)
       ;  // do nothing
   }
+  update_setup();
 }
 
 inline void AudioOutputI2S::update() {
