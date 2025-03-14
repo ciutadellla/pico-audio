@@ -47,6 +47,7 @@ uint16_t AudioStream::cpu_cycles_total_max = 0;
 uint16_t AudioStream::memory_used = 0;
 uint16_t AudioStream::memory_used_max = 0;
 AudioConnection *AudioStream::unused = NULL;  // linked list of unused but not destructed connections
+int AudioStream::user_irq_num = -1;
 
 void software_isr(void);
 
