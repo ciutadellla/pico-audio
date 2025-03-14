@@ -1,4 +1,4 @@
-#include "dspinst.h"
+#include "utility/dspinst.h"
 #include "AudioStream.h"
 #include "AudioOutputI2S.h"
 #include "mixer.h"

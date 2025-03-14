@@ -28,7 +28,7 @@
 #define effect_envelope_h_
 // #include <Arduino.h>     // github.com/PaulStoffregen/cores/blob/master/teensy4/Arduino.h
 #include "AudioStream.h" // github.com/PaulStoffregen/cores/blob/master/teensy4/AudioStream.h
-#include "dspinst.h"
+#include "utility/dspinst.h"
 
 #define SAMPLES_PER_MSEC (AUDIO_SAMPLE_RATE_EXACT/1000.0f)
 

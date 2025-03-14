@@ -73,6 +73,8 @@ FLASHMEM void AudioStream::initialize_memory(audio_block_t *data, unsigned int n
   for (i = 0; i < num; i++) {
     data[i].memory_pool_index = i;
   }
+  
+  /*
   if (update_scheduled == false) {
      	// if no hardware I/O has taken responsibility for update,
      	// start a timer which will call update_all() at the correct rate
@@ -83,6 +85,7 @@ FLASHMEM void AudioStream::initialize_memory(audio_block_t *data, unsigned int n
     update_setup();
      	}
   }
+  */
   __enable_irq();
 }
 
@@ -456,29 +459,28 @@ void software_isr(void)
 	AudioStream::update_all(); // sync updates with buffer transfer
 }
 
-// void software_isr(void) // AudioStream::update_all()
-void AudioStream::update_all(void) {
-// digitalWrite(UPDATE_PIN,1);	  
-  AudioStream *p;
+void AudioStream::update_all()
+{
+	AudioStream *p;
 
-  // uint32_t totalcycles = ARM_DWT_CYCCNT;
-  //digitalWriteFast(2, HIGH);
-  for (p = AudioStream::first_update; p; p = p->next_update) {
-    if (p->active) {
-      // uint32_t cycles = ARM_DWT_CYCCNT;
-      p->update();
-      // TODO: traverse inputQueueArray and release
-      // any input blocks that weren't consumed?
-      // cycles = (ARM_DWT_CYCCNT - cycles) >> 6;
-      // p->cpu_cycles = cycles;
-      // if (cycles > p->cpu_cycles_max) p->cpu_cycles_max = cycles;
-    }
-  }
-  //digitalWriteFast(2, LOW);
-  // totalcycles = (ARM_DWT_CYCCNT - totalcycles) >> 6;
-  // AudioStream::cpu_cycles_total = totalcycles;
-  // if (totalcycles > AudioStream::cpu_cycles_total_max)
-  // 	AudioStream::cpu_cycles_total_max = totalcycles;
+	uint32_t totalcycles = ARM_DWT_CYCCNT;
+	//digitalWriteFast(2, HIGH);
+	for (p = AudioStream::first_update; p; p = p->next_update) {
+		if (p->active) {
+			uint32_t cycles = ARM_DWT_CYCCNT;
+			p->update();
+			// TODO: traverse inputQueueArray and release
+			// any input blocks that weren't consumed?
+			cycles = (ARM_DWT_CYCCNT - cycles) >> 6;
+			p->cpu_cycles = cycles;
+			if (cycles > p->cpu_cycles_max) p->cpu_cycles_max = cycles;
+		}
+	}
+	//digitalWriteFast(2, LOW);
+	totalcycles = (ARM_DWT_CYCCNT - totalcycles) >> 6;
+	AudioStream::cpu_cycles_total = totalcycles;
+	if (totalcycles > AudioStream::cpu_cycles_total_max)
+		AudioStream::cpu_cycles_total_max = totalcycles;
 
   // asm("DSB");
 // digitalWrite(UPDATE_PIN,0);	  
