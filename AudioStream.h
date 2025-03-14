@@ -45,6 +45,7 @@
 #define ARM_DWT_CYCCNT (m33_hw->dwt_cyccnt)
 #define __disable_irq(...) noInterrupts()
 #define __enable_irq(...)    interrupts()
+#define F_CPU_ACTUAL (rp2040.f_cpu())
 #endif // defined(ARDUINO_RASPBERRY_PI_PICO_2)
 
 
@@ -123,14 +124,14 @@ protected:
 	AudioStream::initialize_memory(data, num); \
 })
 
-// #define CYCLE_COUNTER_APPROX_PERCENT(n) (((float)((uint32_t)(n) * 6400u) * (float)(AUDIO_SAMPLE_RATE_EXACT / AUDIO_BLOCK_SAMPLES)) / (float)(F_CPU_ACTUAL))
+#define CYCLE_COUNTER_APPROX_PERCENT(n) (((float)((uint32_t)(n) * 6400u) * (float)(AUDIO_SAMPLE_RATE_EXACT / AUDIO_BLOCK_SAMPLES)) / (float)(F_CPU_ACTUAL))
 
-// #define AudioProcessorUsage() (CYCLE_COUNTER_APPROX_PERCENT(AudioStream::cpu_cycles_total))
-// #define AudioProcessorUsageMax() (CYCLE_COUNTER_APPROX_PERCENT(AudioStream::cpu_cycles_total_max))
-// #define AudioProcessorUsageMaxReset() (AudioStream::cpu_cycles_total_max = AudioStream::cpu_cycles_total)
-// #define AudioMemoryUsage() (AudioStream::memory_used)
-// #define AudioMemoryUsageMax() (AudioStream::memory_used_max)
-// #define AudioMemoryUsageMaxReset() (AudioStream::memory_used_max = AudioStream::memory_used)
+#define AudioProcessorUsage() (CYCLE_COUNTER_APPROX_PERCENT(AudioStream::cpu_cycles_total))
+#define AudioProcessorUsageMax() (CYCLE_COUNTER_APPROX_PERCENT(AudioStream::cpu_cycles_total_max))
+#define AudioProcessorUsageMaxReset() (AudioStream::cpu_cycles_total_max = AudioStream::cpu_cycles_total)
+#define AudioMemoryUsage() (AudioStream::memory_used)
+#define AudioMemoryUsageMax() (AudioStream::memory_used_max)
+#define AudioMemoryUsageMaxReset() (AudioStream::memory_used_max = AudioStream::memory_used)
 
 class AudioStream
 {

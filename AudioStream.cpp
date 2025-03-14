@@ -74,20 +74,12 @@ FLASHMEM void AudioStream::initialize_memory(audio_block_t *data, unsigned int n
   for (i = 0; i < num; i++) {
     data[i].memory_pool_index = i;
   }
-  
-  /*
-  if (update_scheduled == false) {
-     	// if no hardware I/O has taken responsibility for update,
-     	// start a timer which will call update_all() at the correct rate
-     	IntervalTimer *timer = new IntervalTimer();
-     	if (timer) {
-     		float usec = 1e6 * AUDIO_BLOCK_SAMPLES / AUDIO_SAMPLE_RATE_EXACT;
-     		timer->begin(update_all, usec);
-    update_setup();
-     	}
-  }
-  */
   __enable_irq();
+ 
+  // Pico doesn't enable cycle counter by default, but
+  // we need it to compute rough CPU usage:
+  m33_hw->dwt_ctrl |= M33_DWT_CTRL_CYCCNTENA_BITS;
+  m33_hw->demcr    |= M33_DEMCR_TRCENA_BITS;
 }
 
 // Allocate 1 audio data block.  If successful

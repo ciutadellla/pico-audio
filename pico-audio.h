@@ -3,4 +3,5 @@
 #include "AudioOutputI2S.h"
 #include "mixer.h"
 #include "synth_sine.h"
+#include "synth_waveform.h"
 #include "effect_envelope.h"
