@@ -45,10 +45,11 @@ inline void AudioOutputI2S::begin(uint pBCLK = 20, uint pWS = 21, uint pDOUT = 2
   update_setup();
 }
 
+
+static int32_t tmp[AUDIO_BLOCK_SAMPLES*2]; // 4*256*2 = 2kB; saves a lot of CPU, though!
 inline void AudioOutputI2S::update() {
   audio_block_t *inputLeftBlock = receiveReadOnly(0);
   audio_block_t *inputRightBlock = receiveReadOnly(1);
-
 
   for (int i = 0; i < AUDIO_BLOCK_SAMPLES; i++) {
     // When sending 0, some DAC will power off causing a hearable jump from silence to floor noise and cracks,
@@ -56,12 +57,16 @@ inline void AudioOutputI2S::update() {
     // Tested only with the PCM5100A
     SAMPLE_TYPE sampleL = inputLeftBlock == NULL || inputLeftBlock->data[i] == 0 ? 1 : inputLeftBlock->data[i];// * 0.1;
     SAMPLE_TYPE sampleR = inputRightBlock == NULL || inputRightBlock->data[i] == 0 ? 1 : inputRightBlock->data[i];// * 0.1;
-//    if (SAMPLE_BITS_DEPTH == 32) {
-      i2s.write32((int32_t)sampleL*65536, (int32_t)sampleR*65536);
-//    } else if (SAMPLE_BITS_DEPTH == 16) {
-//      i2s.write16(sampleL, sampleR);
-//    }
+
+	// fill the temporary buffer - MUCH faster than
+	// writing samples two at a time
+	tmp[i*2]   = (int32_t)sampleL*65536;
+	tmp[i*2+1] = (int32_t)sampleR*65536;
   }
+  
+  // doesn't fail on overrun, but what would we do if 
+  // a check showed we didn't write all data?!
+  i2s.write((uint8_t*) tmp, sizeof tmp);
   
   if (inputLeftBlock) {
     release(inputLeftBlock);

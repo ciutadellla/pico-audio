@@ -159,9 +159,9 @@ public:
 			numConnections = 0;
 		}
 	static void initialize_memory(audio_block_t *data, unsigned int num);
-	// float processorUsage(void) { return CYCLE_COUNTER_APPROX_PERCENT(cpu_cycles); }
-	// float processorUsageMax(void) { return CYCLE_COUNTER_APPROX_PERCENT(cpu_cycles_max); }
-	// void processorUsageMaxReset(void) { cpu_cycles_max = cpu_cycles; }
+	float processorUsage(void) { return CYCLE_COUNTER_APPROX_PERCENT(cpu_cycles); }
+	float processorUsageMax(void) { return CYCLE_COUNTER_APPROX_PERCENT(cpu_cycles_max); }
+	void processorUsageMaxReset(void) { cpu_cycles_max = cpu_cycles; }
 	bool isActive(void) { return active; }
 	uint16_t cpu_cycles;
 	uint16_t cpu_cycles_max;
