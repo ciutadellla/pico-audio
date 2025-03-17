@@ -46,10 +46,10 @@ inline void AudioOutputI2S::begin(uint pBCLK = 20, uint pWS = 21, uint pDOUT = 2
 }
 
 
-static int32_t tmp[AUDIO_BLOCK_SAMPLES*2]; // 4*256*2 = 2kB; saves a lot of CPU, though!
 inline void AudioOutputI2S::update() {
   audio_block_t *inputLeftBlock = receiveReadOnly(0);
   audio_block_t *inputRightBlock = receiveReadOnly(1);
+	static int32_t tmp[AUDIO_BLOCK_SAMPLES*2]; // 4*256*2 = 2kB; saves a lot of CPU, though!
 
   for (int i = 0; i < AUDIO_BLOCK_SAMPLES; i++) {
     // When sending 0, some DAC will power off causing a hearable jump from silence to floor noise and cracks,
