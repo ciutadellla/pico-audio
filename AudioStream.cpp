@@ -477,6 +477,7 @@ void AudioStream::update_all()
 
   // asm("DSB");
 // digitalWrite(UPDATE_PIN,0);	  
+// digitalWrite(UPDATE_PIN,0);	  
 }
 
 
