@@ -6,3 +6,4 @@
 #include "effect_envelope.h"
 #include "synth_simple_drum.h"
 #include "play_memory.h"
+#include "synth_waveform.h"

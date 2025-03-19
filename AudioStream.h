@@ -37,6 +37,18 @@
 
 #endif
 
+#if defined(ARDUINO_RASPBERRY_PI_PICO_2)
+#define __IMXRT1062__  // pretend this is a Teensy 4.x
+#define FLASHMEM
+#define SAMPLE_BITS_DEPTH 16
+#define SAMPLE_TYPE int16_t
+#define ARM_DWT_CYCCNT (m33_hw->dwt_cyccnt)
+#define __disable_irq(...) noInterrupts()
+#define __enable_irq(...)    interrupts()
+#define F_CPU_ACTUAL (rp2040.f_cpu())
+#endif // defined(ARDUINO_RASPBERRY_PI_PICO_2)
+
+
 // AUDIO_BLOCK_SAMPLES determines how many samples the audio library processes
 // per update.  It may be reduced to achieve lower latency response to events,
 // at the expense of higher interrupt and DMA setup overhead.
@@ -115,14 +127,14 @@ protected:
 	AudioStream::initialize_memory(data, num); \
 })
 
-// #define CYCLE_COUNTER_APPROX_PERCENT(n) (((float)((uint32_t)(n) * 6400u) * (float)(AUDIO_SAMPLE_RATE_EXACT / AUDIO_BLOCK_SAMPLES)) / (float)(F_CPU_ACTUAL))
+#define CYCLE_COUNTER_APPROX_PERCENT(n) (((float)((uint32_t)(n) * 6400u) * (float)(AUDIO_SAMPLE_RATE_EXACT / AUDIO_BLOCK_SAMPLES)) / (float)(F_CPU_ACTUAL))
 
-// #define AudioProcessorUsage() (CYCLE_COUNTER_APPROX_PERCENT(AudioStream::cpu_cycles_total))
-// #define AudioProcessorUsageMax() (CYCLE_COUNTER_APPROX_PERCENT(AudioStream::cpu_cycles_total_max))
-// #define AudioProcessorUsageMaxReset() (AudioStream::cpu_cycles_total_max = AudioStream::cpu_cycles_total)
-// #define AudioMemoryUsage() (AudioStream::memory_used)
-// #define AudioMemoryUsageMax() (AudioStream::memory_used_max)
-// #define AudioMemoryUsageMaxReset() (AudioStream::memory_used_max = AudioStream::memory_used)
+#define AudioProcessorUsage() (CYCLE_COUNTER_APPROX_PERCENT(AudioStream::cpu_cycles_total))
+#define AudioProcessorUsageMax() (CYCLE_COUNTER_APPROX_PERCENT(AudioStream::cpu_cycles_total_max))
+#define AudioProcessorUsageMaxReset() (AudioStream::cpu_cycles_total_max = AudioStream::cpu_cycles_total)
+#define AudioMemoryUsage() (AudioStream::memory_used)
+#define AudioMemoryUsageMax() (AudioStream::memory_used_max)
+#define AudioMemoryUsageMaxReset() (AudioStream::memory_used_max = AudioStream::memory_used)
 
 class AudioStream
 {
@@ -150,9 +162,9 @@ public:
 			numConnections = 0;
 		}
 	static void initialize_memory(audio_block_t *data, unsigned int num);
-	// float processorUsage(void) { return CYCLE_COUNTER_APPROX_PERCENT(cpu_cycles); }
-	// float processorUsageMax(void) { return CYCLE_COUNTER_APPROX_PERCENT(cpu_cycles_max); }
-	// void processorUsageMaxReset(void) { cpu_cycles_max = cpu_cycles; }
+	float processorUsage(void) { return CYCLE_COUNTER_APPROX_PERCENT(cpu_cycles); }
+	float processorUsageMax(void) { return CYCLE_COUNTER_APPROX_PERCENT(cpu_cycles_max); }
+	void processorUsageMaxReset(void) { cpu_cycles_max = cpu_cycles; }
 	bool isActive(void) { return active; }
 	uint16_t cpu_cycles;
 	uint16_t cpu_cycles_max;
