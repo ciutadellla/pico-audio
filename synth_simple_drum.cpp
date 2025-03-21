@@ -33,14 +33,14 @@ extern const int16_t AudioWaveformSine[257];
 
 void AudioSynthSimpleDrum::noteOn(void)
 {
-  // __disable_irq();
+  __disable_irq();
 
   wav_phasor = 0;
   wav_phasor2 = 0;
 
   env_lin_current = 0x7fff0000;
   
-  // __enable_irq();
+  __enable_irq();
 }
 
 void AudioSynthSimpleDrum::secondMix(float level)

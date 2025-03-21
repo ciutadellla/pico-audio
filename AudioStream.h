@@ -37,7 +37,7 @@
 
 #endif
 
-#if defined(ARDUINO_RASPBERRY_PI_PICO_2)
+#if defined(ARDUINO_RASPBERRY_PI_PICO_2) || defined(ARDUINO_RASPBERRY_PI_PICO_2W)
 #define __IMXRT1062__  // pretend this is a Teensy 4.x
 #define FLASHMEM
 #define SAMPLE_BITS_DEPTH 16

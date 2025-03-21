@@ -200,11 +200,11 @@ uint32_t AudioPlayMemory::positionMillis(void)
 	const uint8_t *n, *b;
 	uint32_t b2m;
 
-	// __disable_irq();
+	__disable_irq();
 	p = playing;
 	n = (const uint8_t *)next;
 	b = (const uint8_t *)beginning;
-	// __enable_irq();
+	__enable_irq();
 	switch (p) {
 	  case 0x81: // 16 bit PCM, 44100 Hz
 		b2m = B2M_88200;  break;
@@ -229,10 +229,10 @@ uint32_t AudioPlayMemory::lengthMillis(void)
 	const uint32_t *b;
 	uint32_t b2m;
 
-	// __disable_irq();
+	__disable_irq();
 	p = playing;
 	b = (const uint32_t *)beginning;
-	// __enable_irq();
+	__enable_irq();
 	switch (p) {
 	  case 0x81: // 16 bit PCM, 44100 Hz
 	  case 0x01: // u-law encoded, 44100 Hz
