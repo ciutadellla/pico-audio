@@ -8,8 +8,6 @@ Adafruit_USBD_MIDI usb_midi;
 // and attach usb_midi as the transport.
 MIDI_CREATE_INSTANCE(Adafruit_USBD_MIDI, usb_midi, MIDI);
 
-#define SAMPLE_TYPE int16_t
-#define SAMPLE_BITS_DEPTH 16
 #define VOICES 20
 
 #include <pico-audio.h>

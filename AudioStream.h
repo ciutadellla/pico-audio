@@ -40,8 +40,6 @@
 #if defined(ARDUINO_RASPBERRY_PI_PICO_2) || defined(ARDUINO_RASPBERRY_PI_PICO_2W)
 #define __IMXRT1062__  // pretend this is a Teensy 4.x
 #define FLASHMEM
-#define SAMPLE_BITS_DEPTH 16
-#define SAMPLE_TYPE int16_t
 #define ARM_DWT_CYCCNT (m33_hw->dwt_cyccnt)
 #define __disable_irq(...) noInterrupts()
 #define __enable_irq(...)    interrupts()
@@ -71,9 +69,6 @@
 #endif
 
 #define AUDIO_SAMPLE_RATE 96000
-#define SAMPLE_TYPE int16_t
-#define SAMPLE_BITS_DEPTH 16
-
 
 #define noAUDIO_DEBUG_CLASS // disable this class by default
 
