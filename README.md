@@ -14,6 +14,11 @@ The library currently supports 16 bit I2S audio output only and does not yet sup
 
 This library requires the Arduino CMSIS-DSP library (currently V 5.7.0) to be installed.
 
+Library has two added modules: Synth_DaisySP and Effect_DaisySP which allow usage of Electrosmith's DaisySP DSP library with Teensy Audio. 
+https://github.com/electro-smith/DaisySP
+https://github.com/rheslip/DaisySP_Teensy
+
+
 Tested with Raspberry Pi Pico 2 board, Arduino IDE 2.3.6 with Pico Arduino 4.5.3 and a PCM5102 I2S DAC module.
 
 To run the PolySynth example, select the Pico 2 board and USB stack Adafruit TinyUSB. Ladderfilter example may require overclocking. Most of the original Teensy Audio examples will run with minor modifications.
