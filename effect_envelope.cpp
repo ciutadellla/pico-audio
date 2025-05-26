@@ -38,7 +38,8 @@
 
 void AudioEffectEnvelope::noteOn(void)
 {
-	__disable_irq();
+//	__disable_irq();
+	noInterrupts();
 	if (state == STATE_IDLE || state == STATE_DELAY || release_forced_count == 0) {
 		mult_hires = 0;
 		count = delay_count;
@@ -55,18 +56,21 @@ void AudioEffectEnvelope::noteOn(void)
 		count = release_forced_count;
 		inc_hires = (-mult_hires) / (int32_t)count;
 	}
-	__enable_irq();
+//	__enable_irq();
+  interrupts();
 }
 
 void AudioEffectEnvelope::noteOff(void)
 {
-	__disable_irq();
+//	__disable_irq();
+	noInterrupts();
 	if (state != STATE_RELEASE && state != STATE_IDLE && state != STATE_FORCED) {
 		state = STATE_RELEASE;
 		count = release_count;
 		inc_hires = (-mult_hires) / (int32_t)count;
 	}
-	__enable_irq();
+//	__enable_irq();
+  interrupts();
 }
 
 void AudioEffectEnvelope::update(void)

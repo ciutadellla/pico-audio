@@ -41,8 +41,8 @@
 #define __IMXRT1062__  // pretend this is a Teensy 4.x
 #define FLASHMEM
 #define ARM_DWT_CYCCNT (m33_hw->dwt_cyccnt)
-#define __disable_irq(...) noInterrupts()
-#define __enable_irq(...)    interrupts()
+//#define __disable_irq(...) noInterrupts()
+//#define __enable_irq(...)    interrupts()
 #define F_CPU_ACTUAL (rp2040.f_cpu())
 #endif // defined(ARDUINO_RASPBERRY_PI_PICO_2)
 
@@ -61,14 +61,17 @@
 //   AudioAnalyzeFFT1024
 
 #ifndef AUDIO_BLOCK_SAMPLES
-#define AUDIO_BLOCK_SAMPLES  256
+//#define AUDIO_BLOCK_SAMPLES  256
+#define AUDIO_BLOCK_SAMPLES  128  // RH 128 makes more sense - default for Teensy Audio
 #endif
 
 #ifndef AUDIO_SAMPLE_RATE_EXACT
-#define AUDIO_SAMPLE_RATE_EXACT 96000
+//#define AUDIO_SAMPLE_RATE_EXACT 96000
+#define AUDIO_SAMPLE_RATE_EXACT 44100.0f  // RH 48k consumes approx half the CPU
 #endif
 
-#define AUDIO_SAMPLE_RATE 96000
+//#define AUDIO_SAMPLE_RATE 96000
+#define AUDIO_SAMPLE_RATE 44100  
 
 #define noAUDIO_DEBUG_CLASS // disable this class by default
 

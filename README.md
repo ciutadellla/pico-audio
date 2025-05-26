@@ -1,9 +1,19 @@
 # pico-audio
 
-This is Teensy's Audio library modified for Pico 2.
+PJRC Teensy Audio library ported to Pico 2.
 
-It is in a very early stage, quickly assembled for testing, only a few classes are available. 
+Requires RP2350 (Pico 2, Pico 2 W or compatible boards) - will NOT run on RP2040. RP2350 has DSP extensions which are required for this library to work correctly.
 
-To run the PolySynth example, select the Pico 2 W board and USB stack Adafruit TinyUSB.
+Most of the Teensy Audio functions have been ported. While not extensively tested seems to work as it does on Teensy 3.2 and Teensy 4. Functions that have not been ported are for the most part specific to Teensy hardware. Teensy sketches will require modifications to define the RP2350 I2S pins in use and likely other modifications to Teensy specific code. DSP intensive code may require overclocking the RP2350 - see comments about perfmance below.
 
-Tested only with Pico 2 W so far.
+Note that Teensy 4 and 4.1 are MUCH faster that the RP2350 (approx 5x) so if you need high performance DSP use Teensy 4.
+
+This fork has been modifed from the original 96k/256 sample port to use 44.1k samples per second and 128 sample blocks to maximize compatibilty with Teensy code. Lower samplerate=lower CPU usage.
+
+The library currently supports 16 bit I2S audio output only and does not yet support audio input.
+
+This library requires the Arduino CMSIS-DSP library (currently V 5.7.0) to be installed.
+
+Tested with Raspberry Pi Pico 2 board, Arduino IDE 2.3.6 with Pico Arduino 4.5.3 and a PCM5102 I2S DAC module.
+
+To run the PolySynth example, select the Pico 2 board and USB stack Adafruit TinyUSB. Most of the original Teensy Audio examples will run with minor modifications.
