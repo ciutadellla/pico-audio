@@ -16,4 +16,10 @@ This library requires the Arduino CMSIS-DSP library (currently V 5.7.0) to be in
 
 Tested with Raspberry Pi Pico 2 board, Arduino IDE 2.3.6 with Pico Arduino 4.5.3 and a PCM5102 I2S DAC module.
 
-To run the PolySynth example, select the Pico 2 board and USB stack Adafruit TinyUSB. Most of the original Teensy Audio examples will run with minor modifications.
+To run the PolySynth example, select the Pico 2 board and USB stack Adafruit TinyUSB. Ladderfilter example may require overclocking. Most of the original Teensy Audio examples will run with minor modifications.
+
+Known Issues:
+
+Sometimes memory usage reports wildly wrong numbers
+
+FFT functions still not working reliably
