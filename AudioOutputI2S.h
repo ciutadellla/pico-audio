@@ -6,7 +6,7 @@
 #include "AudioStream.h"
 
 class AudioOutputI2S : public AudioStream {
-protected:
+public:
   static I2S i2s;
   audio_block_t *inputQueueArray[2];
 
