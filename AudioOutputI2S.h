@@ -6,11 +6,11 @@
 #include "AudioStream.h"
 
 class AudioOutputI2S : public AudioStream {
-public:
-  static I2S i2s;
+protected:
   audio_block_t *inputQueueArray[2];
 
 public:
+  static I2S i2s;
   AudioOutputI2S();
   void begin(uint pBCLK, uint pWS, uint pDOUT);
   void update();
