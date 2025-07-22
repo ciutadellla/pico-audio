@@ -40,8 +40,7 @@ void AudioEffectGranular::begin(int16_t *sample_bank_def, int16_t max_len_def)
 
 void AudioEffectGranular::beginFreeze_int(int grain_samples)
 {
-//	__disable_irq();
-	noInterrupts();
+	__disable_irq();
 	grain_mode = 1;
 	if (grain_samples < max_sample_len) {
 		freeze_len = grain_samples;
@@ -51,14 +50,12 @@ void AudioEffectGranular::beginFreeze_int(int grain_samples)
 	sample_loaded = false;
 	write_en = false;
 	sample_req = true;
-//	__enable_irq();
-	interrupts();
+	__enable_irq();
 }
 
 void AudioEffectGranular::beginPitchShift_int(int grain_samples)
 {
-//	__disable_irq();
-	noInterrupts();
+	__disable_irq();
 	grain_mode = 2;
 	if (allow_len_change) {
 		if (grain_samples < 100) grain_samples = 100;
@@ -69,8 +66,7 @@ void AudioEffectGranular::beginPitchShift_int(int grain_samples)
 	sample_loaded = false;
 	write_en = false;
 	sample_req = true;
-//	__enable_irq();
-	interrupts();
+	__enable_irq();
 }
 
 void AudioEffectGranular::stop()

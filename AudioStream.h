@@ -41,8 +41,8 @@
 #define __IMXRT1062__  // pretend this is a Teensy 4.x
 #define FLASHMEM
 #define ARM_DWT_CYCCNT (m33_hw->dwt_cyccnt)
-//#define __disable_irq(...) noInterrupts()
-//#define __enable_irq(...)    interrupts()
+#define __disable_irq(...) noInterrupts()
+#define __enable_irq(...)    interrupts()
 #define F_CPU_ACTUAL (rp2040.f_cpu())
 #endif // defined(ARDUINO_RASPBERRY_PI_PICO_2)
 

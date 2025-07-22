@@ -26,7 +26,7 @@
 
 #include <Arduino.h>
 #include "analyze_fft1024.h"
-#include "sqrt_integer.h"
+#include "utility/sqrt_integer.h"
 #include "utility/dspinst.h"
 
 
@@ -64,7 +64,7 @@ void AudioAnalyzeFFT1024::update(void)
 	block = receiveReadOnly();
 	if (!block) return;
 
-//#if defined(__ARM_ARCH_7EM__)
+#if defined(ARDUINO_RASPBERRY_PI_PICO_2) || defined(ARDUINO_RASPBERRY_PI_PICO_2W)
 	switch (state) {
 	case 0:
 		blocklist[0] = block;
@@ -126,9 +126,9 @@ void AudioAnalyzeFFT1024::update(void)
 		state = 4;
 		break;
 	}
-//#else
+#else
 	release(block);
-//#endif
+#endif
 }
 
 

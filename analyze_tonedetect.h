@@ -28,7 +28,7 @@
 #define analyze_tonedetect_h_
 
 #include <Arduino.h>     // github.com/PaulStoffregen/cores/blob/master/teensy4/Arduino.h
-#include <AudioStream.h> // github.com/PaulStoffregen/cores/blob/master/teensy4/AudioStream.h
+#include "AudioStream.h" // github.com/PaulStoffregen/cores/blob/master/teensy4/AudioStream.h
 
 class AudioAnalyzeToneDetect : public AudioStream
 {
@@ -43,12 +43,10 @@ public:
 	}
 	void set_params(int32_t coef, uint16_t cycles, uint16_t len);
 	bool available(void) {
-//		__disable_irq();
-		noInterrupts();
+		__disable_irq();
 		bool flag = new_output;
 		if (flag) new_output = false;
-//		__enable_irq();
-		interrupts();
+		__enable_irq();
 		return flag;
 	}
 	float read(void);

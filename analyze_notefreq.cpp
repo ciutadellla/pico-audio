@@ -23,7 +23,7 @@
 #include <Arduino.h>
 #include "analyze_notefreq.h"
 #include "utility/dspinst.h"
-#include "arm_math.h"
+#include "arm_math/src/arm_math.h"
 
 #define HALF_BLOCKS AUDIO_GUITARTUNER_BLOCKS * 64
 

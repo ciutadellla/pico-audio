@@ -28,7 +28,7 @@
 #define filter_biquad_h_
 
 #include <Arduino.h>     // github.com/PaulStoffregen/cores/blob/master/teensy4/Arduino.h
-#include <AudioStream.h> // github.com/PaulStoffregen/cores/blob/master/teensy4/AudioStream.h
+#include "AudioStream.h" // github.com/PaulStoffregen/cores/blob/master/teensy4/AudioStream.h
 
 class AudioFilterBiquad : public AudioStream
 {

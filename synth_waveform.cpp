@@ -27,7 +27,7 @@
 #include <Arduino.h>
 #include "synth_waveform.h"
 //#include "arm_math/src/arm_math.h" 
-#include <arm_math.h> 
+ #include "arm_math/src/arm_math.h" 
 #include "utility/dspinst.h"
 
 

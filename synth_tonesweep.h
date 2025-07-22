@@ -24,7 +24,7 @@
 #define synth_tonesweep_h_
 
 #include <Arduino.h>     // github.com/PaulStoffregen/cores/blob/master/teensy4/Arduino.h
-#include <AudioStream.h> // github.com/PaulStoffregen/cores/blob/master/teensy4/AudioStream.h
+#include "AudioStream.h" // github.com/PaulStoffregen/cores/blob/master/teensy4/AudioStream.h
 
 //                A u d i o S y n t h T o n e S w e e p
 // Written by Pete (El Supremo) Feb 2014
@@ -40,12 +40,10 @@ public:
   virtual void update(void);
   unsigned char isPlaying(void);
   float read(void) {
- //   __disable_irq();
-	noInterrupts();
+   __disable_irq();
     uint64_t freq = tone_freq;
     unsigned char busy = sweep_busy;
-//    __enable_irq();
-	interrupts();
+   __enable_irq();
     if (!busy) return 0.0f;
     return (float)(freq >> 32);
   }

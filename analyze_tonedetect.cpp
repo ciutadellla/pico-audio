@@ -84,8 +84,7 @@ void AudioAnalyzeToneDetect::update(void)
 
 void AudioAnalyzeToneDetect::set_params(int32_t coef, uint16_t cycles, uint16_t len)
 {
-//	__disable_irq();
-	noInterrupts();
+	__disable_irq();
 	coefficient = coef;
 	ncycles = cycles;
 	length = len;
@@ -93,8 +92,7 @@ void AudioAnalyzeToneDetect::set_params(int32_t coef, uint16_t cycles, uint16_t 
 	s1 = 0;
 	s2 = 0;
 	enabled = true;
-//	__enable_irq();
-	interrupts();
+	__enable_irq();
 	//Serial.printf("Tone: coef=%d, ncycles=%d, length=%d\n", coefficient, ncycles, length);
 }
 
@@ -103,14 +101,12 @@ float AudioAnalyzeToneDetect::read(void)
 	int32_t coef, q1, q2, power;
 	uint16_t len;
 
-//	__disable_irq();
-	noInterrupts();
+	__disable_irq();
 	coef = coefficient;
 	q1 = out1;
 	q2 = out2;
 	len = length;
-//	__enable_irq();
-	interrupts();
+	__enable_irq();
 #ifdef TONE_DETECT_FAST
 	power = multiply_32x32_rshift32_rounded(q2, q2);
 	power = multiply_accumulate_32x32_rshift32_rounded(power, q1, q1);
@@ -133,14 +129,12 @@ AudioAnalyzeToneDetect::operator bool()
 	int32_t coef, q1, q2, power, trigger;
 	uint16_t len;
 
-//	__disable_irq();
-	noInterrupts();
+	__disable_irq();
 	coef = coefficient;
 	q1 = out1;
 	q2 = out2;
 	len = length;
-//	__enable_irq();
-	interrupts();
+	__enable_irq();
 #ifdef TONE_DETECT_FAST
 	power = multiply_32x32_rshift32_rounded(q2, q2);
 	power = multiply_accumulate_32x32_rshift32_rounded(power, q1, q1);

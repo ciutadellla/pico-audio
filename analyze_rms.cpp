@@ -68,14 +68,12 @@ void AudioAnalyzeRMS::update(void)
 
 float AudioAnalyzeRMS::read(void)
 {
-//	__disable_irq();
-	noInterrupts();
+	__disable_irq();
 	int64_t sum = accum;
 	accum = 0;
 	uint32_t num = count;
 	count = 0;
-//	__enable_irq();
-	interrupts();
+	__enable_irq();
 	float meansq = sum / (num * AUDIO_BLOCK_SAMPLES);
 	// TODO: shift down to 32 bits and use sqrt_uint32
 	//       but is that really any more efficient?

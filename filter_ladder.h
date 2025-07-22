@@ -39,10 +39,9 @@
 #define filter_ladder_h_
 
 #include <Arduino.h>     // github.com/PaulStoffregen/cores/blob/master/teensy4/Arduino.h
-#include <AudioStream.h> // github.com/PaulStoffregen/cores/blob/master/teensy4/AudioStream.h
-#include <arm_math.h>    // github.com/PaulStoffregen/cores/blob/master/teensy4/arm_math.h
-//#include "arm_math/src/arm_math.h"  
-//#include "arm_math.h"  
+#include "AudioStream.h" // github.com/PaulStoffregen/cores/blob/master/teensy4/AudioStream.h
+#include "arm_math/src/arm_math.h"    // github.com/PaulStoffregen/cores/blob/master/teensy4/arm_math.h
+
 
 enum AudioFilterLadderInterpolation {
 	LADDER_FILTER_INTERPOLATION_LINEAR,

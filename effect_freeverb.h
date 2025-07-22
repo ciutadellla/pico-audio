@@ -27,7 +27,7 @@
 #ifndef effect_freeverb_h_
 #define effect_freeverb_h_
 #include <Arduino.h>     // github.com/PaulStoffregen/cores/blob/master/teensy4/Arduino.h
-#include <AudioStream.h> // github.com/PaulStoffregen/cores/blob/master/teensy4/AudioStream.h
+#include "AudioStream.h" // github.com/PaulStoffregen/cores/blob/master/teensy4/AudioStream.h
 
 class AudioEffectFreeverb : public AudioStream
 {
@@ -44,12 +44,10 @@ public:
 		else if (n < 0.0f) n = 0.0f;
 		int x1 = (int)(n * 13107.2f);
 		int x2 = 32768 - x1;
-//		__disable_irq();
-		noInterrupts();
+		__disable_irq();
 		combdamp1 = x1;
 		combdamp2 = x2;
-//		__enable_irq();
-		interrupts();
+		__enable_irq();
 	}
 private:
 	audio_block_t *inputQueueArray[1];
@@ -106,12 +104,10 @@ public:
 		else if (n < 0.0f) n = 0.0f;
 		int x1 = (int)(n * 13107.2f);
 		int x2 = 32768 - x1;
-//		__disable_irq();
-		noInterrupts();
+		__disable_irq();
 		combdamp1 = x1;
 		combdamp2 = x2;
-//		__enable_irq();
-		interrupts();
+		__enable_irq();
 	}
 private:
 	audio_block_t *inputQueueArray[1];

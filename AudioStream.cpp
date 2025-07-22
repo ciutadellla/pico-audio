@@ -75,8 +75,7 @@ FLASHMEM void AudioStream::initialize_memory(audio_block_t *data, unsigned int n
   for (i = 0; i < num; i++) {
     data[i].memory_pool_index = i;
   }
-//  __enable_irq();
-  interrupts();
+ __enable_irq();
  
   // Pico doesn't enable cycle counter by default, but
   // we need it to compute rough CPU usage:
@@ -95,14 +94,12 @@ audio_block_t * AudioStream::allocate(void)
 
   p = memory_pool_available_mask;
   end = p + NUM_MASKS;
-//	__disable_irq();
-  noInterrupts();
+	__disable_irq();
   index = memory_pool_first_mask;
   p += index;
   while (1) {
     if (p >= end) {
-//			__enable_irq();
-		interrupts();
+			__enable_irq();
       //Serial.println("alloc:null");
       return NULL;
     }
@@ -118,8 +115,7 @@ audio_block_t * AudioStream::allocate(void)
   memory_pool_first_mask = index;
   used = memory_used + 1;
   memory_used = used;
-//	__enable_irq();
-  interrupts();
+	__enable_irq();
   index = p - memory_pool_available_mask;
   block = memory_pool + ((index << 5) + (31 - n));
   block->ref_count = 1;
@@ -138,8 +134,7 @@ void AudioStream::release(audio_block_t *block)
   uint32_t mask = (0x80000000 >> (31 - (block->memory_pool_index & 0x1F)));
   uint32_t index = block->memory_pool_index >> 5;
 
-//	__disable_irq();
-  noInterrupts();
+	__disable_irq();
   if (block->ref_count > 1) {
     block->ref_count--;
   } else {
@@ -149,8 +144,7 @@ void AudioStream::release(audio_block_t *block)
     if (index < memory_pool_first_mask) memory_pool_first_mask = index;
     memory_used--;
   }
-//	__enable_irq();
-  interrupts();
+	__enable_irq();
 }
 
 // Transmit an audio data block
@@ -271,8 +265,7 @@ int AudioConnection::connect(void)
 			{
 				if (p->dst == dst && p->dest_index == dest_index) // same destination - it's in use!
 				{
-//					__enable_irq();
-					interrupts();
+					__enable_irq();
           return 4;
         }
         p = p->next_dest;
@@ -307,8 +300,7 @@ int AudioConnection::connect(void)
 					&& p->src_index == this->src_index && p->dest_index == this->dest_index) 
 				{
 					//Source and destination already connected through another connection, abort
-//					__enable_irq();
-					interrupts();
+					__enable_irq();
           return 6;
         }
         p = p->next_dest;
@@ -331,8 +323,7 @@ int AudioConnection::connect(void)
     result = 0;
   } while (0);
 
-//	__enable_irq();
-  interrupts();
+	__enable_irq();
 
   return result;
 }
@@ -361,15 +352,13 @@ int AudioConnection::disconnect(void)
 
   if (!isConnected) return 1;
   if (dest_index >= dst->num_inputs) return 2;  // should never happen!
-//	__disable_irq();
-	noInterrupts();
+	__disable_irq();
 
   // Remove destination from source list
   p = src->destination_list;
   if (p == NULL) {
     //>>> PAH re-enable the IRQ
-//		__enable_irq();
-	interrupts();
+		__enable_irq();
     return 3;
   } else if (p == this) {
     if (p->next_dest) {
@@ -394,8 +383,7 @@ int AudioConnection::disconnect(void)
   if (dst->inputQueue[dest_index] != NULL) {
     AudioStream::release(dst->inputQueue[dest_index]);
     // release() re-enables the IRQ. Need it to be disabled a little longer
-//		__disable_irq();
-	noInterrupts();
+		__disable_irq();
     dst->inputQueue[dest_index] = NULL;
   }
 
@@ -414,8 +402,7 @@ int AudioConnection::disconnect(void)
   next_dest = dst->unused;
   dst->unused = this;
 
-//	__enable_irq();
-  interrupts();
+	__enable_irq();
 
   return 0;
 }
