@@ -53,9 +53,9 @@
 #define SCL 5
 
 // I2S pins for DAC
-#define BCLK 13
-#define WS 14  // this will always be 1 pin above BCLK - can't change it
-#define I2S_DATA 15
+#define BCLK 20
+#define WS 21  // this will always be 1 pin above BCLK - can't change it
+#define I2S_DATA 22
 
 // OLED display pins
 #define OLED_DC     2

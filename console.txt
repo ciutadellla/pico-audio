@@ -1,0 +1,1001 @@
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '59835' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33268' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '59884' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33259' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '59934' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33250' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '59983' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33242' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '60033' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33233' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '60083' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33225' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '60132' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33217' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '60182' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33208' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '60231' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33200' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '60281' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33192' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '60331' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33184' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '60380' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33176' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '60430' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33168' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '60479' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33160' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '60529' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33153' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '60579' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33145' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '60629' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33138' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '60678' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33130' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '60728' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33123' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '60778' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33115' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '60827' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33108' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '60877' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33101' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '60927' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33094' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '60977' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33087' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '61026' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33080' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '61076' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33073' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '61126' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33066' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '61176' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33059' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '61226' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33053' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '61276' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33046' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '61325' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33040' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '61375' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33033' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '61425' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33027' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '61475' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33021' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '61525' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33014' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '61575' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33008' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '61625' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '33002' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '61675' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32996' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '61724' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32990' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '61774' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32985' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '61824' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32979' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '61874' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32973' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '61924' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32968' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '61974' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32962' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '62024' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32957' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '62074' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32951' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '62124' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32946' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '62174' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32941' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '62224' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32936' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '62274' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32931' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '62324' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32926' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '62374' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32921' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '62424' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32916' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '62474' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32911' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '62524' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32907' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '62574' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32902' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '62624' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32898' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '62675' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32893' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '62725' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32889' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '62775' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32885' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '62825' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32880' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '62875' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32876' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '62925' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32872' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '62975' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32868' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '63025' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32864' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '63075' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32861' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '63125' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32857' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '63176' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32853' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '63226' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32850' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '63276' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32846' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '63326' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32843' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '63376' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32839' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '63426' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32836' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '63476' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32833' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '63527' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32830' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '63577' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32827' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '63627' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32824' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '63677' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32821' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '63727' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32818' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '63778' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32815' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '63828' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32813' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '63878' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32810' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '63928' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32807' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '63978' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32805' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '64029' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32803' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '64079' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32800' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '64129' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32798' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '64179' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32796' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '64229' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32794' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '64280' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32792' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '64330' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32790' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '64380' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32788' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '64430' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32787' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '64481' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32785' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '64531' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32783' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '64581' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32782' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '64631' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32780' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '64682' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32779' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '64732' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32778' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '64782' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32777' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '64832' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32776' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '64883' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32775' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '64933' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32774' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '64983' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32773' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '65033' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32772' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '65084' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32771' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '65134' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32770' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '65184' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32770' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '65234' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32769' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '65285' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32769' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '65335' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32769' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '65385' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32768' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '65435' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32768' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '65486' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_common_tables.cpp:4651:1: error: narrowing conversion of '32768' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+/Users/christophe/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.0.1-8ec9d6f/bin/arm-none-eabi-g++ -I /Users/christophe/Library/Caches/arduino/sketches/952FC8A1A8DF14EAA93DD276458BA446/core -c -Werror=return-type -Wno-psabi -DUSE_TINYUSB -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/libraries/Adafruit_TinyUSB_Arduino/src/arduino -DUSBD_PID=0x000f -DUSBD_VID=0x2e8a -DUSBD_MAX_POWER_MA=250 "-DUSB_MANUFACTURER=\"Raspberry Pi\"" "-DUSB_PRODUCT=\"Pico 2\"" -DLWIP_IPV6=0 -DLWIP_IPV4=1 -DLWIP_IGMP=1 -DLWIP_CHECKSUM_CTRL_PER_NETIF=1 -DFILE_COPY_CONSTRUCTOR_SELECT=FILE_COPY_CONSTRUCTOR_PUBLIC -DUSE_UTF8_LONG_NAMES=1 -DDISABLE_FS_H_WARNING=1 "-DARDUINO_VARIANT=\"rpipico2\"" -DPICO_FLASH_SIZE_BYTES=4194304 @/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/lib/rp2350/platform_def.txt -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse -ffunction-sections -fdata-sections -fno-exceptions -MMD -iprefix/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/ @/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/lib/rp2350/platform_inc.txt @/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/lib/core_inc.txt -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/include -fno-rtti -std=gnu++17 -g -pipe -DF_CPU=150000000L -DARDUINO=10607 -DARDUINO_RASPBERRY_PI_PICO_2 "-DBOARD_NAME=\"RASPBERRY_PI_PICO_2\"" -DARDUINO_ARCH_RP2040 -Os -DWIFICC=CYW43_COUNTRY_WORLDWIDE -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/cores/rp2040 -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/variants/rpipico2 -I/Users/christophe/Documents/Arduino/libraries/pico-audio/src -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/libraries/I2S/src -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/libraries/AudioBufferManager/src /Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_f32.cpp -o /Users/christophe/Library/Caches/arduino/sketches/952FC8A1A8DF14EAA93DD276458BA446/libraries/pico-audio/arm_math/src/arm_cos_f32.cpp.o
+/Users/christophe/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.0.1-8ec9d6f/bin/arm-none-eabi-g++ -I /Users/christophe/Library/Caches/arduino/sketches/952FC8A1A8DF14EAA93DD276458BA446/core -c -Werror=return-type -Wno-psabi -DUSE_TINYUSB -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/libraries/Adafruit_TinyUSB_Arduino/src/arduino -DUSBD_PID=0x000f -DUSBD_VID=0x2e8a -DUSBD_MAX_POWER_MA=250 "-DUSB_MANUFACTURER=\"Raspberry Pi\"" "-DUSB_PRODUCT=\"Pico 2\"" -DLWIP_IPV6=0 -DLWIP_IPV4=1 -DLWIP_IGMP=1 -DLWIP_CHECKSUM_CTRL_PER_NETIF=1 -DFILE_COPY_CONSTRUCTOR_SELECT=FILE_COPY_CONSTRUCTOR_PUBLIC -DUSE_UTF8_LONG_NAMES=1 -DDISABLE_FS_H_WARNING=1 "-DARDUINO_VARIANT=\"rpipico2\"" -DPICO_FLASH_SIZE_BYTES=4194304 @/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/lib/rp2350/platform_def.txt -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse -ffunction-sections -fdata-sections -fno-exceptions -MMD -iprefix/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/ @/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/lib/rp2350/platform_inc.txt @/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/lib/core_inc.txt -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/include -fno-rtti -std=gnu++17 -g -pipe -DF_CPU=150000000L -DARDUINO=10607 -DARDUINO_RASPBERRY_PI_PICO_2 "-DBOARD_NAME=\"RASPBERRY_PI_PICO_2\"" -DARDUINO_ARCH_RP2040 -Os -DWIFICC=CYW43_COUNTRY_WORLDWIDE -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/cores/rp2040 -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/variants/rpipico2 -I/Users/christophe/Documents/Arduino/libraries/pico-audio/src -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/libraries/I2S/src -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/libraries/AudioBufferManager/src /Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp -o /Users/christophe/Library/Caches/arduino/sketches/952FC8A1A8DF14EAA93DD276458BA446/libraries/pico-audio/arm_math/src/arm_cos_q15.cpp.o
+/Users/christophe/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.0.1-8ec9d6f/bin/arm-none-eabi-g++ -I /Users/christophe/Library/Caches/arduino/sketches/952FC8A1A8DF14EAA93DD276458BA446/core -c -Werror=return-type -Wno-psabi -DUSE_TINYUSB -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/libraries/Adafruit_TinyUSB_Arduino/src/arduino -DUSBD_PID=0x000f -DUSBD_VID=0x2e8a -DUSBD_MAX_POWER_MA=250 "-DUSB_MANUFACTURER=\"Raspberry Pi\"" "-DUSB_PRODUCT=\"Pico 2\"" -DLWIP_IPV6=0 -DLWIP_IPV4=1 -DLWIP_IGMP=1 -DLWIP_CHECKSUM_CTRL_PER_NETIF=1 -DFILE_COPY_CONSTRUCTOR_SELECT=FILE_COPY_CONSTRUCTOR_PUBLIC -DUSE_UTF8_LONG_NAMES=1 -DDISABLE_FS_H_WARNING=1 "-DARDUINO_VARIANT=\"rpipico2\"" -DPICO_FLASH_SIZE_BYTES=4194304 @/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/lib/rp2350/platform_def.txt -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse -ffunction-sections -fdata-sections -fno-exceptions -MMD -iprefix/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/ @/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/lib/rp2350/platform_inc.txt @/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/lib/core_inc.txt -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/include -fno-rtti -std=gnu++17 -g -pipe -DF_CPU=150000000L -DARDUINO=10607 -DARDUINO_RASPBERRY_PI_PICO_2 "-DBOARD_NAME=\"RASPBERRY_PI_PICO_2\"" -DARDUINO_ARCH_RP2040 -Os -DWIFICC=CYW43_COUNTRY_WORLDWIDE -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/cores/rp2040 -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/variants/rpipico2 -I/Users/christophe/Documents/Arduino/libraries/pico-audio/src -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/libraries/I2S/src -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/libraries/AudioBufferManager/src /Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp -o /Users/christophe/Library/Caches/arduino/sketches/952FC8A1A8DF14EAA93DD276458BA446/libraries/pico-audio/arm_math/src/arm_cos_q31.cpp.o
+/Users/christophe/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.0.1-8ec9d6f/bin/arm-none-eabi-g++ -I /Users/christophe/Library/Caches/arduino/sketches/952FC8A1A8DF14EAA93DD276458BA446/core -c -Werror=return-type -Wno-psabi -DUSE_TINYUSB -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/libraries/Adafruit_TinyUSB_Arduino/src/arduino -DUSBD_PID=0x000f -DUSBD_VID=0x2e8a -DUSBD_MAX_POWER_MA=250 "-DUSB_MANUFACTURER=\"Raspberry Pi\"" "-DUSB_PRODUCT=\"Pico 2\"" -DLWIP_IPV6=0 -DLWIP_IPV4=1 -DLWIP_IGMP=1 -DLWIP_CHECKSUM_CTRL_PER_NETIF=1 -DFILE_COPY_CONSTRUCTOR_SELECT=FILE_COPY_CONSTRUCTOR_PUBLIC -DUSE_UTF8_LONG_NAMES=1 -DDISABLE_FS_H_WARNING=1 "-DARDUINO_VARIANT=\"rpipico2\"" -DPICO_FLASH_SIZE_BYTES=4194304 @/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/lib/rp2350/platform_def.txt -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse -ffunction-sections -fdata-sections -fno-exceptions -MMD -iprefix/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/ @/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/lib/rp2350/platform_inc.txt @/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/lib/core_inc.txt -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/include -fno-rtti -std=gnu++17 -g -pipe -DF_CPU=150000000L -DARDUINO=10607 -DARDUINO_RASPBERRY_PI_PICO_2 "-DBOARD_NAME=\"RASPBERRY_PI_PICO_2\"" -DARDUINO_ARCH_RP2040 -Os -DWIFICC=CYW43_COUNTRY_WORLDWIDE -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/cores/rp2040 -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/variants/rpipico2 -I/Users/christophe/Documents/Arduino/libraries/pico-audio/src -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/libraries/I2S/src -I/Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/libraries/AudioBufferManager/src /Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_dct4_f32.cpp -o /Users/christophe/Library/Caches/arduino/sketches/952FC8A1A8DF14EAA93DD276458BA446/libraries/pico-audio/arm_math/src/arm_dct4_f32.cpp.o
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:80:19: error: narrowing conversion of '4242265409' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   80 |   0x3242abf, 0x0, 0xfcdbd541, 0xf9b82684, 0xf6956fb7, 0xf3742ca2, 0xf054d8d5,
+      |                   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:80:31: error: narrowing conversion of '4189595268' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   80 |   0x3242abf, 0x0, 0xfcdbd541, 0xf9b82684, 0xf6956fb7, 0xf3742ca2, 0xf054d8d5,
+      |                               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:80:43: error: narrowing conversion of '4136988599' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   80 |   0x3242abf, 0x0, 0xfcdbd541, 0xf9b82684, 0xf6956fb7, 0xf3742ca2, 0xf054d8d5,
+      |                                           ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:80:55: error: narrowing conversion of '4084477090' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   80 |   0x3242abf, 0x0, 0xfcdbd541, 0xf9b82684, 0xf6956fb7, 0xf3742ca2, 0xf054d8d5,
+      |                                                       ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:80:67: error: narrowing conversion of '4032092373' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   80 |   0x3242abf, 0x0, 0xfcdbd541, 0xf9b82684, 0xf6956fb7, 0xf3742ca2, 0xf054d8d5,
+      |                                                                   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:81:3: error: narrowing conversion of '3979866001' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   81 |   0xed37ef91,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:82:3: error: narrowing conversion of '3927829435' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   82 |   0xea1debbb, 0xe70747c4, 0xe3f47d96, 0xe0e60685, 0xdddc5b3b, 0xdad7f3a2,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:82:15: error: narrowing conversion of '3876014020' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   82 |   0xea1debbb, 0xe70747c4, 0xe3f47d96, 0xe0e60685, 0xdddc5b3b, 0xdad7f3a2,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:82:27: error: narrowing conversion of '3824450966' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   82 |   0xea1debbb, 0xe70747c4, 0xe3f47d96, 0xe0e60685, 0xdddc5b3b, 0xdad7f3a2,
+      |                           ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:82:39: error: narrowing conversion of '3773171333' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   82 |   0xea1debbb, 0xe70747c4, 0xe3f47d96, 0xe0e60685, 0xdddc5b3b, 0xdad7f3a2,
+      |                                       ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:82:51: error: narrowing conversion of '3722206011' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   82 |   0xea1debbb, 0xe70747c4, 0xe3f47d96, 0xe0e60685, 0xdddc5b3b, 0xdad7f3a2,
+      |                                                   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:82:63: error: narrowing conversion of '3671585698' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   82 |   0xea1debbb, 0xe70747c4, 0xe3f47d96, 0xe0e60685, 0xdddc5b3b, 0xdad7f3a2,
+      |                                                               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:83:3: error: narrowing conversion of '3621340888' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   83 |   0xd7d946d8, 0xd4e0cb15,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:83:15: error: narrowing conversion of '3571501845' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   83 |   0xd7d946d8, 0xd4e0cb15,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:84:3: error: narrowing conversion of '3522098590' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   84 |   0xd1eef59e, 0xcf043ab3, 0xcc210d79, 0xc945dfec, 0xc67322ce, 0xc3a94590,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:84:15: error: narrowing conversion of '3473160883' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   84 |   0xd1eef59e, 0xcf043ab3, 0xcc210d79, 0xc945dfec, 0xc67322ce, 0xc3a94590,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:84:27: error: narrowing conversion of '3424718201' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   84 |   0xd1eef59e, 0xcf043ab3, 0xcc210d79, 0xc945dfec, 0xc67322ce, 0xc3a94590,
+      |                           ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:84:39: error: narrowing conversion of '3376799724' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   84 |   0xd1eef59e, 0xcf043ab3, 0xcc210d79, 0xc945dfec, 0xc67322ce, 0xc3a94590,
+      |                                       ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:84:51: error: narrowing conversion of '3329434318' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   84 |   0xd1eef59e, 0xcf043ab3, 0xcc210d79, 0xc945dfec, 0xc67322ce, 0xc3a94590,
+      |                                                   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:84:63: error: narrowing conversion of '3282650512' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   84 |   0xd1eef59e, 0xcf043ab3, 0xcc210d79, 0xc945dfec, 0xc67322ce, 0xc3a94590,
+      |                                                               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:85:3: error: narrowing conversion of '3236476488' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   85 |   0xc0e8b648, 0xbe31e19b,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:85:15: error: narrowing conversion of '3190940059' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   85 |   0xc0e8b648, 0xbe31e19b,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:86:3: error: narrowing conversion of '3146068656' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   86 |   0xbb8532b0, 0xb8e31319, 0xb64beacd, 0xb3c0200c, 0xb140175b, 0xaecc336c,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:86:15: error: narrowing conversion of '3101889305' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   86 |   0xbb8532b0, 0xb8e31319, 0xb64beacd, 0xb3c0200c, 0xb140175b, 0xaecc336c,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:86:27: error: narrowing conversion of '3058428621' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   86 |   0xbb8532b0, 0xb8e31319, 0xb64beacd, 0xb3c0200c, 0xb140175b, 0xaecc336c,
+      |                           ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:86:39: error: narrowing conversion of '3015712780' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   86 |   0xbb8532b0, 0xb8e31319, 0xb64beacd, 0xb3c0200c, 0xb140175b, 0xaecc336c,
+      |                                       ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:86:51: error: narrowing conversion of '2973767515' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   86 |   0xbb8532b0, 0xb8e31319, 0xb64beacd, 0xb3c0200c, 0xb140175b, 0xaecc336c,
+      |                                                   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:86:63: error: narrowing conversion of '2932618092' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   86 |   0xbb8532b0, 0xb8e31319, 0xb64beacd, 0xb3c0200c, 0xb140175b, 0xaecc336c,
+      |                                                               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:87:3: error: narrowing conversion of '2892289296' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   87 |   0xac64d510, 0xaa0a5b2e,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:87:15: error: narrowing conversion of '2852805422' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   87 |   0xac64d510, 0xaa0a5b2e,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:88:3: error: narrowing conversion of '2814190252' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   88 |   0xa7bd22ac, 0xa57d8666, 0xa34bdf20, 0xa1288376, 0x9f13c7d0, 0x9d0dfe54,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:88:15: error: narrowing conversion of '2776467046' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   88 |   0xa7bd22ac, 0xa57d8666, 0xa34bdf20, 0xa1288376, 0x9f13c7d0, 0x9d0dfe54,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:88:27: error: narrowing conversion of '2739658528' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   88 |   0xa7bd22ac, 0xa57d8666, 0xa34bdf20, 0xa1288376, 0x9f13c7d0, 0x9d0dfe54,
+      |                           ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:88:39: error: narrowing conversion of '2703786870' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   88 |   0xa7bd22ac, 0xa57d8666, 0xa34bdf20, 0xa1288376, 0x9f13c7d0, 0x9d0dfe54,
+      |                                       ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:88:51: error: narrowing conversion of '2668873680' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   88 |   0xa7bd22ac, 0xa57d8666, 0xa34bdf20, 0xa1288376, 0x9f13c7d0, 0x9d0dfe54,
+      |                                                   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:88:63: error: narrowing conversion of '2634939988' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   88 |   0xa7bd22ac, 0xa57d8666, 0xa34bdf20, 0xa1288376, 0x9f13c7d0, 0x9d0dfe54,
+      |                                                               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:89:3: error: narrowing conversion of '2602006234' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   89 |   0x9b1776da, 0x99307ee0,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:89:15: error: narrowing conversion of '2570092256' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   89 |   0x9b1776da, 0x99307ee0,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:90:3: error: narrowing conversion of '2539217279' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   90 |   0x9759617f, 0x9592675c, 0x93dbd6a0, 0x9235f2ec, 0x90a0fd4e, 0x8f1d343a,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:90:15: error: narrowing conversion of '2509399900' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   90 |   0x9759617f, 0x9592675c, 0x93dbd6a0, 0x9235f2ec, 0x90a0fd4e, 0x8f1d343a,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:90:27: error: narrowing conversion of '2480658080' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   90 |   0x9759617f, 0x9592675c, 0x93dbd6a0, 0x9235f2ec, 0x90a0fd4e, 0x8f1d343a,
+      |                           ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:90:39: error: narrowing conversion of '2453009132' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   90 |   0x9759617f, 0x9592675c, 0x93dbd6a0, 0x9235f2ec, 0x90a0fd4e, 0x8f1d343a,
+      |                                       ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:90:51: error: narrowing conversion of '2426469710' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   90 |   0x9759617f, 0x9592675c, 0x93dbd6a0, 0x9235f2ec, 0x90a0fd4e, 0x8f1d343a,
+      |                                                   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:90:63: error: narrowing conversion of '2401055802' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   90 |   0x9759617f, 0x9592675c, 0x93dbd6a0, 0x9235f2ec, 0x90a0fd4e, 0x8f1d343a,
+      |                                                               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:91:3: error: narrowing conversion of '2376782715' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   91 |   0x8daad37b, 0x8c4a142f,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:91:15: error: narrowing conversion of '2353665071' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   91 |   0x8daad37b, 0x8c4a142f,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:92:3: error: narrowing conversion of '2331716795' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   92 |   0x8afb2cbb, 0x89be50c3, 0x8893b125, 0x877b7bec, 0x8675dc4f, 0x8582faa5,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:92:15: error: narrowing conversion of '2310951107' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   92 |   0x8afb2cbb, 0x89be50c3, 0x8893b125, 0x877b7bec, 0x8675dc4f, 0x8582faa5,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:92:27: error: narrowing conversion of '2291380517' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   92 |   0x8afb2cbb, 0x89be50c3, 0x8893b125, 0x877b7bec, 0x8675dc4f, 0x8582faa5,
+      |                           ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:92:39: error: narrowing conversion of '2273016812' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   92 |   0x8afb2cbb, 0x89be50c3, 0x8893b125, 0x877b7bec, 0x8675dc4f, 0x8582faa5,
+      |                                       ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:92:51: error: narrowing conversion of '2255871055' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   92 |   0x8afb2cbb, 0x89be50c3, 0x8893b125, 0x877b7bec, 0x8675dc4f, 0x8582faa5,
+      |                                                   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:92:63: error: narrowing conversion of '2239953573' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   92 |   0x8afb2cbb, 0x89be50c3, 0x8893b125, 0x877b7bec, 0x8675dc4f, 0x8582faa5,
+      |                                                               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:93:3: error: narrowing conversion of '2225273954' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   93 |   0x84a2fc62, 0x83d60412,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:93:15: error: narrowing conversion of '2211841042' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   93 |   0x84a2fc62, 0x83d60412,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:94:3: error: narrowing conversion of '2199662926' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   94 |   0x831c314e, 0x8275a0c0, 0x81e26c16, 0x8162aa04, 0x80f66e3c, 0x809dc971,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:94:15: error: narrowing conversion of '2188746944' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   94 |   0x831c314e, 0x8275a0c0, 0x81e26c16, 0x8162aa04, 0x80f66e3c, 0x809dc971,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:94:27: error: narrowing conversion of '2179099670' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   94 |   0x831c314e, 0x8275a0c0, 0x81e26c16, 0x8162aa04, 0x80f66e3c, 0x809dc971,
+      |                           ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:94:39: error: narrowing conversion of '2170726916' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   94 |   0x831c314e, 0x8275a0c0, 0x81e26c16, 0x8162aa04, 0x80f66e3c, 0x809dc971,
+      |                                       ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:94:51: error: narrowing conversion of '2163633724' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   94 |   0x831c314e, 0x8275a0c0, 0x81e26c16, 0x8162aa04, 0x80f66e3c, 0x809dc971,
+      |                                                   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:94:63: error: narrowing conversion of '2157824369' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   94 |   0x831c314e, 0x8275a0c0, 0x81e26c16, 0x8162aa04, 0x80f66e3c, 0x809dc971,
+      |                                                               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:95:3: error: narrowing conversion of '2153302348' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   95 |   0x8058c94c, 0x80277872,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:95:15: error: narrowing conversion of '2150070386' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   95 |   0x8058c94c, 0x80277872,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:96:3: error: narrowing conversion of '2148130430' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   96 |   0x8009de7e, 0x80000000, 0x8009de7e, 0x80277872, 0x8058c94c, 0x809dc971,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:96:15: error: narrowing conversion of '2147483648' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   96 |   0x8009de7e, 0x80000000, 0x8009de7e, 0x80277872, 0x8058c94c, 0x809dc971,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:96:27: error: narrowing conversion of '2148130430' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   96 |   0x8009de7e, 0x80000000, 0x8009de7e, 0x80277872, 0x8058c94c, 0x809dc971,
+      |                           ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:96:39: error: narrowing conversion of '2150070386' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   96 |   0x8009de7e, 0x80000000, 0x8009de7e, 0x80277872, 0x8058c94c, 0x809dc971,
+      |                                       ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:96:51: error: narrowing conversion of '2153302348' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   96 |   0x8009de7e, 0x80000000, 0x8009de7e, 0x80277872, 0x8058c94c, 0x809dc971,
+      |                                                   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:96:63: error: narrowing conversion of '2157824369' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   96 |   0x8009de7e, 0x80000000, 0x8009de7e, 0x80277872, 0x8058c94c, 0x809dc971,
+      |                                                               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:97:3: error: narrowing conversion of '2163633724' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   97 |   0x80f66e3c, 0x8162aa04,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:97:15: error: narrowing conversion of '2170726916' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   97 |   0x80f66e3c, 0x8162aa04,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:98:3: error: narrowing conversion of '2179099670' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   98 |   0x81e26c16, 0x8275a0c0, 0x831c314e, 0x83d60412, 0x84a2fc62, 0x8582faa5,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:98:15: error: narrowing conversion of '2188746944' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   98 |   0x81e26c16, 0x8275a0c0, 0x831c314e, 0x83d60412, 0x84a2fc62, 0x8582faa5,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:98:27: error: narrowing conversion of '2199662926' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   98 |   0x81e26c16, 0x8275a0c0, 0x831c314e, 0x83d60412, 0x84a2fc62, 0x8582faa5,
+      |                           ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:98:39: error: narrowing conversion of '2211841042' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   98 |   0x81e26c16, 0x8275a0c0, 0x831c314e, 0x83d60412, 0x84a2fc62, 0x8582faa5,
+      |                                       ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:98:51: error: narrowing conversion of '2225273954' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   98 |   0x81e26c16, 0x8275a0c0, 0x831c314e, 0x83d60412, 0x84a2fc62, 0x8582faa5,
+      |                                                   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:98:63: error: narrowing conversion of '2239953573' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   98 |   0x81e26c16, 0x8275a0c0, 0x831c314e, 0x83d60412, 0x84a2fc62, 0x8582faa5,
+      |                                                               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:99:3: error: narrowing conversion of '2255871055' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   99 |   0x8675dc4f, 0x877b7bec,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:99:15: error: narrowing conversion of '2273016812' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+   99 |   0x8675dc4f, 0x877b7bec,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:100:3: error: narrowing conversion of '2291380517' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  100 |   0x8893b125, 0x89be50c3, 0x8afb2cbb, 0x8c4a142f, 0x8daad37b, 0x8f1d343a,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:100:15: error: narrowing conversion of '2310951107' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  100 |   0x8893b125, 0x89be50c3, 0x8afb2cbb, 0x8c4a142f, 0x8daad37b, 0x8f1d343a,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:100:27: error: narrowing conversion of '2331716795' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  100 |   0x8893b125, 0x89be50c3, 0x8afb2cbb, 0x8c4a142f, 0x8daad37b, 0x8f1d343a,
+      |                           ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:100:39: error: narrowing conversion of '2353665071' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  100 |   0x8893b125, 0x89be50c3, 0x8afb2cbb, 0x8c4a142f, 0x8daad37b, 0x8f1d343a,
+      |                                       ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:100:51: error: narrowing conversion of '2376782715' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  100 |   0x8893b125, 0x89be50c3, 0x8afb2cbb, 0x8c4a142f, 0x8daad37b, 0x8f1d343a,
+      |                                                   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:100:63: error: narrowing conversion of '2401055802' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  100 |   0x8893b125, 0x89be50c3, 0x8afb2cbb, 0x8c4a142f, 0x8daad37b, 0x8f1d343a,
+      |                                                               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:101:3: error: narrowing conversion of '2426469710' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  101 |   0x90a0fd4e, 0x9235f2ec,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:101:15: error: narrowing conversion of '2453009132' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  101 |   0x90a0fd4e, 0x9235f2ec,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:102:3: error: narrowing conversion of '2480658080' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  102 |   0x93dbd6a0, 0x9592675c, 0x9759617f, 0x99307ee0, 0x9b1776da, 0x9d0dfe54,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:102:15: error: narrowing conversion of '2509399900' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  102 |   0x93dbd6a0, 0x9592675c, 0x9759617f, 0x99307ee0, 0x9b1776da, 0x9d0dfe54,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:102:27: error: narrowing conversion of '2539217279' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  102 |   0x93dbd6a0, 0x9592675c, 0x9759617f, 0x99307ee0, 0x9b1776da, 0x9d0dfe54,
+      |                           ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:102:39: error: narrowing conversion of '2570092256' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  102 |   0x93dbd6a0, 0x9592675c, 0x9759617f, 0x99307ee0, 0x9b1776da, 0x9d0dfe54,
+      |                                       ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:102:51: error: narrowing conversion of '2602006234' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  102 |   0x93dbd6a0, 0x9592675c, 0x9759617f, 0x99307ee0, 0x9b1776da, 0x9d0dfe54,
+      |                                                   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:102:63: error: narrowing conversion of '2634939988' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  102 |   0x93dbd6a0, 0x9592675c, 0x9759617f, 0x99307ee0, 0x9b1776da, 0x9d0dfe54,
+      |                                                               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:103:3: error: narrowing conversion of '2668873680' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  103 |   0x9f13c7d0, 0xa1288376,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:103:15: error: narrowing conversion of '2703786870' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  103 |   0x9f13c7d0, 0xa1288376,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:104:3: error: narrowing conversion of '2739658528' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  104 |   0xa34bdf20, 0xa57d8666, 0xa7bd22ac, 0xaa0a5b2e, 0xac64d510, 0xaecc336c,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:104:15: error: narrowing conversion of '2776467046' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  104 |   0xa34bdf20, 0xa57d8666, 0xa7bd22ac, 0xaa0a5b2e, 0xac64d510, 0xaecc336c,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:104:27: error: narrowing conversion of '2814190252' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  104 |   0xa34bdf20, 0xa57d8666, 0xa7bd22ac, 0xaa0a5b2e, 0xac64d510, 0xaecc336c,
+      |                           ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:104:39: error: narrowing conversion of '2852805422' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  104 |   0xa34bdf20, 0xa57d8666, 0xa7bd22ac, 0xaa0a5b2e, 0xac64d510, 0xaecc336c,
+      |                                       ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:104:51: error: narrowing conversion of '2892289296' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  104 |   0xa34bdf20, 0xa57d8666, 0xa7bd22ac, 0xaa0a5b2e, 0xac64d510, 0xaecc336c,
+      |                                                   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:104:63: error: narrowing conversion of '2932618092' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  104 |   0xa34bdf20, 0xa57d8666, 0xa7bd22ac, 0xaa0a5b2e, 0xac64d510, 0xaecc336c,
+      |                                                               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:105:3: error: narrowing conversion of '2973767515' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  105 |   0xb140175b, 0xb3c0200c,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:105:15: error: narrowing conversion of '3015712780' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  105 |   0xb140175b, 0xb3c0200c,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:106:3: error: narrowing conversion of '3058428621' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  106 |   0xb64beacd, 0xb8e31319, 0xbb8532b0, 0xbe31e19b, 0xc0e8b648, 0xc3a94590,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:106:15: error: narrowing conversion of '3101889305' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  106 |   0xb64beacd, 0xb8e31319, 0xbb8532b0, 0xbe31e19b, 0xc0e8b648, 0xc3a94590,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:106:27: error: narrowing conversion of '3146068656' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  106 |   0xb64beacd, 0xb8e31319, 0xbb8532b0, 0xbe31e19b, 0xc0e8b648, 0xc3a94590,
+      |                           ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:106:39: error: narrowing conversion of '3190940059' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  106 |   0xb64beacd, 0xb8e31319, 0xbb8532b0, 0xbe31e19b, 0xc0e8b648, 0xc3a94590,
+      |                                       ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:106:51: error: narrowing conversion of '3236476488' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  106 |   0xb64beacd, 0xb8e31319, 0xbb8532b0, 0xbe31e19b, 0xc0e8b648, 0xc3a94590,
+      |                                                   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:106:63: error: narrowing conversion of '3282650512' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  106 |   0xb64beacd, 0xb8e31319, 0xbb8532b0, 0xbe31e19b, 0xc0e8b648, 0xc3a94590,
+      |                                                               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:107:3: error: narrowing conversion of '3329434318' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  107 |   0xc67322ce, 0xc945dfec,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:107:15: error: narrowing conversion of '3376799724' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  107 |   0xc67322ce, 0xc945dfec,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:108:3: error: narrowing conversion of '3424718201' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  108 |   0xcc210d79, 0xcf043ab3, 0xd1eef59e, 0xd4e0cb15, 0xd7d946d8, 0xdad7f3a2,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:108:15: error: narrowing conversion of '3473160883' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  108 |   0xcc210d79, 0xcf043ab3, 0xd1eef59e, 0xd4e0cb15, 0xd7d946d8, 0xdad7f3a2,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:108:27: error: narrowing conversion of '3522098590' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  108 |   0xcc210d79, 0xcf043ab3, 0xd1eef59e, 0xd4e0cb15, 0xd7d946d8, 0xdad7f3a2,
+      |                           ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:108:39: error: narrowing conversion of '3571501845' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  108 |   0xcc210d79, 0xcf043ab3, 0xd1eef59e, 0xd4e0cb15, 0xd7d946d8, 0xdad7f3a2,
+      |                                       ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:108:51: error: narrowing conversion of '3621340888' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  108 |   0xcc210d79, 0xcf043ab3, 0xd1eef59e, 0xd4e0cb15, 0xd7d946d8, 0xdad7f3a2,
+      |                                                   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:108:63: error: narrowing conversion of '3671585698' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  108 |   0xcc210d79, 0xcf043ab3, 0xd1eef59e, 0xd4e0cb15, 0xd7d946d8, 0xdad7f3a2,
+      |                                                               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:109:3: error: narrowing conversion of '3722206011' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  109 |   0xdddc5b3b, 0xe0e60685,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:109:15: error: narrowing conversion of '3773171333' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  109 |   0xdddc5b3b, 0xe0e60685,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:110:3: error: narrowing conversion of '3824450966' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  110 |   0xe3f47d96, 0xe70747c4, 0xea1debbb, 0xed37ef91, 0xf054d8d5, 0xf3742ca2,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:110:15: error: narrowing conversion of '3876014020' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  110 |   0xe3f47d96, 0xe70747c4, 0xea1debbb, 0xed37ef91, 0xf054d8d5, 0xf3742ca2,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:110:27: error: narrowing conversion of '3927829435' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  110 |   0xe3f47d96, 0xe70747c4, 0xea1debbb, 0xed37ef91, 0xf054d8d5, 0xf3742ca2,
+      |                           ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:110:39: error: narrowing conversion of '3979866001' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  110 |   0xe3f47d96, 0xe70747c4, 0xea1debbb, 0xed37ef91, 0xf054d8d5, 0xf3742ca2,
+      |                                       ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:110:51: error: narrowing conversion of '4032092373' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  110 |   0xe3f47d96, 0xe70747c4, 0xea1debbb, 0xed37ef91, 0xf054d8d5, 0xf3742ca2,
+      |                                                   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:110:63: error: narrowing conversion of '4084477090' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  110 |   0xe3f47d96, 0xe70747c4, 0xea1debbb, 0xed37ef91, 0xf054d8d5, 0xf3742ca2,
+      |                                                               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:111:3: error: narrowing conversion of '4136988599' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  111 |   0xf6956fb7, 0xf9b82684,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:111:15: error: narrowing conversion of '4189595268' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  111 |   0xf6956fb7, 0xf9b82684,
+      |               ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q31.cpp:112:3: error: narrowing conversion of '4242265409' from 'unsigned int' to 'q31_t' {aka 'long int'} [-Wnarrowing]
+  112 |   0xfcdbd541, 0x0, 0x3242abf, 0x647d97c, 0x96a9049, 0xc8bd35e, 0xfab272b,
+      |   ^~~~~~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:72:15: error: narrowing conversion of '64732' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   72 |   0x324, 0x0, 0xfcdc, 0xf9b8, 0xf695, 0xf374, 0xf055, 0xed38,
+      |               ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:72:23: error: narrowing conversion of '63928' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   72 |   0x324, 0x0, 0xfcdc, 0xf9b8, 0xf695, 0xf374, 0xf055, 0xed38,
+      |                       ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:72:31: error: narrowing conversion of '63125' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   72 |   0x324, 0x0, 0xfcdc, 0xf9b8, 0xf695, 0xf374, 0xf055, 0xed38,
+      |                               ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:72:39: error: narrowing conversion of '62324' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   72 |   0x324, 0x0, 0xfcdc, 0xf9b8, 0xf695, 0xf374, 0xf055, 0xed38,
+      |                                       ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:72:47: error: narrowing conversion of '61525' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   72 |   0x324, 0x0, 0xfcdc, 0xf9b8, 0xf695, 0xf374, 0xf055, 0xed38,
+      |                                               ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:72:55: error: narrowing conversion of '60728' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   72 |   0x324, 0x0, 0xfcdc, 0xf9b8, 0xf695, 0xf374, 0xf055, 0xed38,
+      |                                                       ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:73:3: error: narrowing conversion of '59934' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   73 |   0xea1e, 0xe707, 0xe3f4, 0xe0e6, 0xdddc, 0xdad8, 0xd7d9, 0xd4e1,
+      |   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:73:11: error: narrowing conversion of '59143' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   73 |   0xea1e, 0xe707, 0xe3f4, 0xe0e6, 0xdddc, 0xdad8, 0xd7d9, 0xd4e1,
+      |           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:73:19: error: narrowing conversion of '58356' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   73 |   0xea1e, 0xe707, 0xe3f4, 0xe0e6, 0xdddc, 0xdad8, 0xd7d9, 0xd4e1,
+      |                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:73:27: error: narrowing conversion of '57574' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   73 |   0xea1e, 0xe707, 0xe3f4, 0xe0e6, 0xdddc, 0xdad8, 0xd7d9, 0xd4e1,
+      |                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:73:35: error: narrowing conversion of '56796' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   73 |   0xea1e, 0xe707, 0xe3f4, 0xe0e6, 0xdddc, 0xdad8, 0xd7d9, 0xd4e1,
+      |                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:73:43: error: narrowing conversion of '56024' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   73 |   0xea1e, 0xe707, 0xe3f4, 0xe0e6, 0xdddc, 0xdad8, 0xd7d9, 0xd4e1,
+      |                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:73:51: error: narrowing conversion of '55257' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   73 |   0xea1e, 0xe707, 0xe3f4, 0xe0e6, 0xdddc, 0xdad8, 0xd7d9, 0xd4e1,
+      |                                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:73:59: error: narrowing conversion of '54497' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   73 |   0xea1e, 0xe707, 0xe3f4, 0xe0e6, 0xdddc, 0xdad8, 0xd7d9, 0xd4e1,
+      |                                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:74:3: error: narrowing conversion of '53743' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   74 |   0xd1ef, 0xcf04, 0xcc21, 0xc946, 0xc673, 0xc3a9, 0xc0e9, 0xbe32,
+      |   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:74:11: error: narrowing conversion of '52996' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   74 |   0xd1ef, 0xcf04, 0xcc21, 0xc946, 0xc673, 0xc3a9, 0xc0e9, 0xbe32,
+      |           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:74:19: error: narrowing conversion of '52257' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   74 |   0xd1ef, 0xcf04, 0xcc21, 0xc946, 0xc673, 0xc3a9, 0xc0e9, 0xbe32,
+      |                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:74:27: error: narrowing conversion of '51526' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   74 |   0xd1ef, 0xcf04, 0xcc21, 0xc946, 0xc673, 0xc3a9, 0xc0e9, 0xbe32,
+      |                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:74:35: error: narrowing conversion of '50803' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   74 |   0xd1ef, 0xcf04, 0xcc21, 0xc946, 0xc673, 0xc3a9, 0xc0e9, 0xbe32,
+      |                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:74:43: error: narrowing conversion of '50089' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   74 |   0xd1ef, 0xcf04, 0xcc21, 0xc946, 0xc673, 0xc3a9, 0xc0e9, 0xbe32,
+      |                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:74:51: error: narrowing conversion of '49385' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   74 |   0xd1ef, 0xcf04, 0xcc21, 0xc946, 0xc673, 0xc3a9, 0xc0e9, 0xbe32,
+      |                                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:74:59: error: narrowing conversion of '48690' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   74 |   0xd1ef, 0xcf04, 0xcc21, 0xc946, 0xc673, 0xc3a9, 0xc0e9, 0xbe32,
+      |                                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:75:3: error: narrowing conversion of '48005' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   75 |   0xbb85, 0xb8e3, 0xb64c, 0xb3c0, 0xb140, 0xaecc, 0xac65, 0xaa0a,
+      |   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:75:11: error: narrowing conversion of '47331' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   75 |   0xbb85, 0xb8e3, 0xb64c, 0xb3c0, 0xb140, 0xaecc, 0xac65, 0xaa0a,
+      |           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:75:19: error: narrowing conversion of '46668' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   75 |   0xbb85, 0xb8e3, 0xb64c, 0xb3c0, 0xb140, 0xaecc, 0xac65, 0xaa0a,
+      |                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:75:27: error: narrowing conversion of '46016' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   75 |   0xbb85, 0xb8e3, 0xb64c, 0xb3c0, 0xb140, 0xaecc, 0xac65, 0xaa0a,
+      |                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:75:35: error: narrowing conversion of '45376' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   75 |   0xbb85, 0xb8e3, 0xb64c, 0xb3c0, 0xb140, 0xaecc, 0xac65, 0xaa0a,
+      |                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:75:43: error: narrowing conversion of '44748' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   75 |   0xbb85, 0xb8e3, 0xb64c, 0xb3c0, 0xb140, 0xaecc, 0xac65, 0xaa0a,
+      |                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:75:51: error: narrowing conversion of '44133' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   75 |   0xbb85, 0xb8e3, 0xb64c, 0xb3c0, 0xb140, 0xaecc, 0xac65, 0xaa0a,
+      |                                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:75:59: error: narrowing conversion of '43530' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   75 |   0xbb85, 0xb8e3, 0xb64c, 0xb3c0, 0xb140, 0xaecc, 0xac65, 0xaa0a,
+      |                                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:76:3: error: narrowing conversion of '42941' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   76 |   0xa7bd, 0xa57e, 0xa34c, 0xa129, 0x9f14, 0x9d0e, 0x9b17, 0x9930,
+      |   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:76:11: error: narrowing conversion of '42366' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   76 |   0xa7bd, 0xa57e, 0xa34c, 0xa129, 0x9f14, 0x9d0e, 0x9b17, 0x9930,
+      |           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:76:19: error: narrowing conversion of '41804' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   76 |   0xa7bd, 0xa57e, 0xa34c, 0xa129, 0x9f14, 0x9d0e, 0x9b17, 0x9930,
+      |                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:76:27: error: narrowing conversion of '41257' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   76 |   0xa7bd, 0xa57e, 0xa34c, 0xa129, 0x9f14, 0x9d0e, 0x9b17, 0x9930,
+      |                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:76:35: error: narrowing conversion of '40724' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   76 |   0xa7bd, 0xa57e, 0xa34c, 0xa129, 0x9f14, 0x9d0e, 0x9b17, 0x9930,
+      |                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:76:43: error: narrowing conversion of '40206' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   76 |   0xa7bd, 0xa57e, 0xa34c, 0xa129, 0x9f14, 0x9d0e, 0x9b17, 0x9930,
+      |                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:76:51: error: narrowing conversion of '39703' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   76 |   0xa7bd, 0xa57e, 0xa34c, 0xa129, 0x9f14, 0x9d0e, 0x9b17, 0x9930,
+      |                                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:76:59: error: narrowing conversion of '39216' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   76 |   0xa7bd, 0xa57e, 0xa34c, 0xa129, 0x9f14, 0x9d0e, 0x9b17, 0x9930,
+      |                                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:77:3: error: narrowing conversion of '38745' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   77 |   0x9759, 0x9592, 0x93dc, 0x9236, 0x90a1, 0x8f1d, 0x8dab, 0x8c4a,
+      |   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:77:11: error: narrowing conversion of '38290' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   77 |   0x9759, 0x9592, 0x93dc, 0x9236, 0x90a1, 0x8f1d, 0x8dab, 0x8c4a,
+      |           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:77:19: error: narrowing conversion of '37852' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   77 |   0x9759, 0x9592, 0x93dc, 0x9236, 0x90a1, 0x8f1d, 0x8dab, 0x8c4a,
+      |                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:77:27: error: narrowing conversion of '37430' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   77 |   0x9759, 0x9592, 0x93dc, 0x9236, 0x90a1, 0x8f1d, 0x8dab, 0x8c4a,
+      |                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:77:35: error: narrowing conversion of '37025' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   77 |   0x9759, 0x9592, 0x93dc, 0x9236, 0x90a1, 0x8f1d, 0x8dab, 0x8c4a,
+      |                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:77:43: error: narrowing conversion of '36637' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   77 |   0x9759, 0x9592, 0x93dc, 0x9236, 0x90a1, 0x8f1d, 0x8dab, 0x8c4a,
+      |                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:77:51: error: narrowing conversion of '36267' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   77 |   0x9759, 0x9592, 0x93dc, 0x9236, 0x90a1, 0x8f1d, 0x8dab, 0x8c4a,
+      |                                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:77:59: error: narrowing conversion of '35914' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   77 |   0x9759, 0x9592, 0x93dc, 0x9236, 0x90a1, 0x8f1d, 0x8dab, 0x8c4a,
+      |                                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:78:3: error: narrowing conversion of '35579' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   78 |   0x8afb, 0x89be, 0x8894, 0x877b, 0x8676, 0x8583, 0x84a3, 0x83d6,
+      |   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:78:11: error: narrowing conversion of '35262' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   78 |   0x8afb, 0x89be, 0x8894, 0x877b, 0x8676, 0x8583, 0x84a3, 0x83d6,
+      |           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:78:19: error: narrowing conversion of '34964' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   78 |   0x8afb, 0x89be, 0x8894, 0x877b, 0x8676, 0x8583, 0x84a3, 0x83d6,
+      |                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:78:27: error: narrowing conversion of '34683' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   78 |   0x8afb, 0x89be, 0x8894, 0x877b, 0x8676, 0x8583, 0x84a3, 0x83d6,
+      |                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:78:35: error: narrowing conversion of '34422' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   78 |   0x8afb, 0x89be, 0x8894, 0x877b, 0x8676, 0x8583, 0x84a3, 0x83d6,
+      |                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:78:43: error: narrowing conversion of '34179' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   78 |   0x8afb, 0x89be, 0x8894, 0x877b, 0x8676, 0x8583, 0x84a3, 0x83d6,
+      |                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:78:51: error: narrowing conversion of '33955' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   78 |   0x8afb, 0x89be, 0x8894, 0x877b, 0x8676, 0x8583, 0x84a3, 0x83d6,
+      |                                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:78:59: error: narrowing conversion of '33750' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   78 |   0x8afb, 0x89be, 0x8894, 0x877b, 0x8676, 0x8583, 0x84a3, 0x83d6,
+      |                                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:79:3: error: narrowing conversion of '33564' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   79 |   0x831c, 0x8276, 0x81e2, 0x8163, 0x80f6, 0x809e, 0x8059, 0x8027,
+      |   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:79:11: error: narrowing conversion of '33398' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   79 |   0x831c, 0x8276, 0x81e2, 0x8163, 0x80f6, 0x809e, 0x8059, 0x8027,
+      |           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:79:19: error: narrowing conversion of '33250' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   79 |   0x831c, 0x8276, 0x81e2, 0x8163, 0x80f6, 0x809e, 0x8059, 0x8027,
+      |                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:79:27: error: narrowing conversion of '33123' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   79 |   0x831c, 0x8276, 0x81e2, 0x8163, 0x80f6, 0x809e, 0x8059, 0x8027,
+      |                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:79:35: error: narrowing conversion of '33014' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   79 |   0x831c, 0x8276, 0x81e2, 0x8163, 0x80f6, 0x809e, 0x8059, 0x8027,
+      |                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:79:43: error: narrowing conversion of '32926' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   79 |   0x831c, 0x8276, 0x81e2, 0x8163, 0x80f6, 0x809e, 0x8059, 0x8027,
+      |                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:79:51: error: narrowing conversion of '32857' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   79 |   0x831c, 0x8276, 0x81e2, 0x8163, 0x80f6, 0x809e, 0x8059, 0x8027,
+      |                                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:79:59: error: narrowing conversion of '32807' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   79 |   0x831c, 0x8276, 0x81e2, 0x8163, 0x80f6, 0x809e, 0x8059, 0x8027,
+      |                                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:80:3: error: narrowing conversion of '32778' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   80 |   0x800a, 0x8000, 0x800a, 0x8027, 0x8059, 0x809e, 0x80f6, 0x8163,
+      |   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:80:11: error: narrowing conversion of '32768' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   80 |   0x800a, 0x8000, 0x800a, 0x8027, 0x8059, 0x809e, 0x80f6, 0x8163,
+      |           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:80:19: error: narrowing conversion of '32778' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   80 |   0x800a, 0x8000, 0x800a, 0x8027, 0x8059, 0x809e, 0x80f6, 0x8163,
+      |                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:80:27: error: narrowing conversion of '32807' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   80 |   0x800a, 0x8000, 0x800a, 0x8027, 0x8059, 0x809e, 0x80f6, 0x8163,
+      |                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:80:35: error: narrowing conversion of '32857' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   80 |   0x800a, 0x8000, 0x800a, 0x8027, 0x8059, 0x809e, 0x80f6, 0x8163,
+      |                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:80:43: error: narrowing conversion of '32926' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   80 |   0x800a, 0x8000, 0x800a, 0x8027, 0x8059, 0x809e, 0x80f6, 0x8163,
+      |                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:80:51: error: narrowing conversion of '33014' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   80 |   0x800a, 0x8000, 0x800a, 0x8027, 0x8059, 0x809e, 0x80f6, 0x8163,
+      |                                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:80:59: error: narrowing conversion of '33123' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   80 |   0x800a, 0x8000, 0x800a, 0x8027, 0x8059, 0x809e, 0x80f6, 0x8163,
+      |                                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:81:3: error: narrowing conversion of '33250' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   81 |   0x81e2, 0x8276, 0x831c, 0x83d6, 0x84a3, 0x8583, 0x8676, 0x877b,
+      |   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:81:11: error: narrowing conversion of '33398' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   81 |   0x81e2, 0x8276, 0x831c, 0x83d6, 0x84a3, 0x8583, 0x8676, 0x877b,
+      |           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:81:19: error: narrowing conversion of '33564' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   81 |   0x81e2, 0x8276, 0x831c, 0x83d6, 0x84a3, 0x8583, 0x8676, 0x877b,
+      |                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:81:27: error: narrowing conversion of '33750' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   81 |   0x81e2, 0x8276, 0x831c, 0x83d6, 0x84a3, 0x8583, 0x8676, 0x877b,
+      |                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:81:35: error: narrowing conversion of '33955' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   81 |   0x81e2, 0x8276, 0x831c, 0x83d6, 0x84a3, 0x8583, 0x8676, 0x877b,
+      |                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:81:43: error: narrowing conversion of '34179' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   81 |   0x81e2, 0x8276, 0x831c, 0x83d6, 0x84a3, 0x8583, 0x8676, 0x877b,
+      |                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:81:51: error: narrowing conversion of '34422' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   81 |   0x81e2, 0x8276, 0x831c, 0x83d6, 0x84a3, 0x8583, 0x8676, 0x877b,
+      |                                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:81:59: error: narrowing conversion of '34683' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   81 |   0x81e2, 0x8276, 0x831c, 0x83d6, 0x84a3, 0x8583, 0x8676, 0x877b,
+      |                                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:82:3: error: narrowing conversion of '34964' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   82 |   0x8894, 0x89be, 0x8afb, 0x8c4a, 0x8dab, 0x8f1d, 0x90a1, 0x9236,
+      |   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:82:11: error: narrowing conversion of '35262' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   82 |   0x8894, 0x89be, 0x8afb, 0x8c4a, 0x8dab, 0x8f1d, 0x90a1, 0x9236,
+      |           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:82:19: error: narrowing conversion of '35579' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   82 |   0x8894, 0x89be, 0x8afb, 0x8c4a, 0x8dab, 0x8f1d, 0x90a1, 0x9236,
+      |                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:82:27: error: narrowing conversion of '35914' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   82 |   0x8894, 0x89be, 0x8afb, 0x8c4a, 0x8dab, 0x8f1d, 0x90a1, 0x9236,
+      |                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:82:35: error: narrowing conversion of '36267' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   82 |   0x8894, 0x89be, 0x8afb, 0x8c4a, 0x8dab, 0x8f1d, 0x90a1, 0x9236,
+      |                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:82:43: error: narrowing conversion of '36637' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   82 |   0x8894, 0x89be, 0x8afb, 0x8c4a, 0x8dab, 0x8f1d, 0x90a1, 0x9236,
+      |                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:82:51: error: narrowing conversion of '37025' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   82 |   0x8894, 0x89be, 0x8afb, 0x8c4a, 0x8dab, 0x8f1d, 0x90a1, 0x9236,
+      |                                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:82:59: error: narrowing conversion of '37430' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   82 |   0x8894, 0x89be, 0x8afb, 0x8c4a, 0x8dab, 0x8f1d, 0x90a1, 0x9236,
+      |                                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:83:3: error: narrowing conversion of '37852' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   83 |   0x93dc, 0x9592, 0x9759, 0x9930, 0x9b17, 0x9d0e, 0x9f14, 0xa129,
+      |   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:83:11: error: narrowing conversion of '38290' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   83 |   0x93dc, 0x9592, 0x9759, 0x9930, 0x9b17, 0x9d0e, 0x9f14, 0xa129,
+      |           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:83:19: error: narrowing conversion of '38745' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   83 |   0x93dc, 0x9592, 0x9759, 0x9930, 0x9b17, 0x9d0e, 0x9f14, 0xa129,
+      |                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:83:27: error: narrowing conversion of '39216' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   83 |   0x93dc, 0x9592, 0x9759, 0x9930, 0x9b17, 0x9d0e, 0x9f14, 0xa129,
+      |                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:83:35: error: narrowing conversion of '39703' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   83 |   0x93dc, 0x9592, 0x9759, 0x9930, 0x9b17, 0x9d0e, 0x9f14, 0xa129,
+      |                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:83:43: error: narrowing conversion of '40206' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   83 |   0x93dc, 0x9592, 0x9759, 0x9930, 0x9b17, 0x9d0e, 0x9f14, 0xa129,
+      |                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:83:51: error: narrowing conversion of '40724' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   83 |   0x93dc, 0x9592, 0x9759, 0x9930, 0x9b17, 0x9d0e, 0x9f14, 0xa129,
+      |                                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:83:59: error: narrowing conversion of '41257' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   83 |   0x93dc, 0x9592, 0x9759, 0x9930, 0x9b17, 0x9d0e, 0x9f14, 0xa129,
+      |                                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:84:3: error: narrowing conversion of '41804' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   84 |   0xa34c, 0xa57e, 0xa7bd, 0xaa0a, 0xac65, 0xaecc, 0xb140, 0xb3c0,
+      |   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:84:11: error: narrowing conversion of '42366' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   84 |   0xa34c, 0xa57e, 0xa7bd, 0xaa0a, 0xac65, 0xaecc, 0xb140, 0xb3c0,
+      |           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:84:19: error: narrowing conversion of '42941' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   84 |   0xa34c, 0xa57e, 0xa7bd, 0xaa0a, 0xac65, 0xaecc, 0xb140, 0xb3c0,
+      |                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:84:27: error: narrowing conversion of '43530' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   84 |   0xa34c, 0xa57e, 0xa7bd, 0xaa0a, 0xac65, 0xaecc, 0xb140, 0xb3c0,
+      |                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:84:35: error: narrowing conversion of '44133' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   84 |   0xa34c, 0xa57e, 0xa7bd, 0xaa0a, 0xac65, 0xaecc, 0xb140, 0xb3c0,
+      |                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:84:43: error: narrowing conversion of '44748' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   84 |   0xa34c, 0xa57e, 0xa7bd, 0xaa0a, 0xac65, 0xaecc, 0xb140, 0xb3c0,
+      |                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:84:51: error: narrowing conversion of '45376' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   84 |   0xa34c, 0xa57e, 0xa7bd, 0xaa0a, 0xac65, 0xaecc, 0xb140, 0xb3c0,
+      |                                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:84:59: error: narrowing conversion of '46016' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   84 |   0xa34c, 0xa57e, 0xa7bd, 0xaa0a, 0xac65, 0xaecc, 0xb140, 0xb3c0,
+      |                                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:85:3: error: narrowing conversion of '46668' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   85 |   0xb64c, 0xb8e3, 0xbb85, 0xbe32, 0xc0e9, 0xc3a9, 0xc673, 0xc946,
+      |   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:85:11: error: narrowing conversion of '47331' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   85 |   0xb64c, 0xb8e3, 0xbb85, 0xbe32, 0xc0e9, 0xc3a9, 0xc673, 0xc946,
+      |           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:85:19: error: narrowing conversion of '48005' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   85 |   0xb64c, 0xb8e3, 0xbb85, 0xbe32, 0xc0e9, 0xc3a9, 0xc673, 0xc946,
+      |                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:85:27: error: narrowing conversion of '48690' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   85 |   0xb64c, 0xb8e3, 0xbb85, 0xbe32, 0xc0e9, 0xc3a9, 0xc673, 0xc946,
+      |                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:85:35: error: narrowing conversion of '49385' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   85 |   0xb64c, 0xb8e3, 0xbb85, 0xbe32, 0xc0e9, 0xc3a9, 0xc673, 0xc946,
+      |                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:85:43: error: narrowing conversion of '50089' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   85 |   0xb64c, 0xb8e3, 0xbb85, 0xbe32, 0xc0e9, 0xc3a9, 0xc673, 0xc946,
+      |                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:85:51: error: narrowing conversion of '50803' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   85 |   0xb64c, 0xb8e3, 0xbb85, 0xbe32, 0xc0e9, 0xc3a9, 0xc673, 0xc946,
+      |                                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:85:59: error: narrowing conversion of '51526' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   85 |   0xb64c, 0xb8e3, 0xbb85, 0xbe32, 0xc0e9, 0xc3a9, 0xc673, 0xc946,
+      |                                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:86:3: error: narrowing conversion of '52257' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   86 |   0xcc21, 0xcf04, 0xd1ef, 0xd4e1, 0xd7d9, 0xdad8, 0xdddc, 0xe0e6,
+      |   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:86:11: error: narrowing conversion of '52996' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   86 |   0xcc21, 0xcf04, 0xd1ef, 0xd4e1, 0xd7d9, 0xdad8, 0xdddc, 0xe0e6,
+      |           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:86:19: error: narrowing conversion of '53743' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   86 |   0xcc21, 0xcf04, 0xd1ef, 0xd4e1, 0xd7d9, 0xdad8, 0xdddc, 0xe0e6,
+      |                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:86:27: error: narrowing conversion of '54497' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   86 |   0xcc21, 0xcf04, 0xd1ef, 0xd4e1, 0xd7d9, 0xdad8, 0xdddc, 0xe0e6,
+      |                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:86:35: error: narrowing conversion of '55257' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   86 |   0xcc21, 0xcf04, 0xd1ef, 0xd4e1, 0xd7d9, 0xdad8, 0xdddc, 0xe0e6,
+      |                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:86:43: error: narrowing conversion of '56024' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   86 |   0xcc21, 0xcf04, 0xd1ef, 0xd4e1, 0xd7d9, 0xdad8, 0xdddc, 0xe0e6,
+      |                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:86:51: error: narrowing conversion of '56796' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   86 |   0xcc21, 0xcf04, 0xd1ef, 0xd4e1, 0xd7d9, 0xdad8, 0xdddc, 0xe0e6,
+      |                                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:86:59: error: narrowing conversion of '57574' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   86 |   0xcc21, 0xcf04, 0xd1ef, 0xd4e1, 0xd7d9, 0xdad8, 0xdddc, 0xe0e6,
+      |                                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:87:3: error: narrowing conversion of '58356' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   87 |   0xe3f4, 0xe707, 0xea1e, 0xed38, 0xf055, 0xf374, 0xf695, 0xf9b8,
+      |   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:87:11: error: narrowing conversion of '59143' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   87 |   0xe3f4, 0xe707, 0xea1e, 0xed38, 0xf055, 0xf374, 0xf695, 0xf9b8,
+      |           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:87:19: error: narrowing conversion of '59934' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   87 |   0xe3f4, 0xe707, 0xea1e, 0xed38, 0xf055, 0xf374, 0xf695, 0xf9b8,
+      |                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:87:27: error: narrowing conversion of '60728' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   87 |   0xe3f4, 0xe707, 0xea1e, 0xed38, 0xf055, 0xf374, 0xf695, 0xf9b8,
+      |                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:87:35: error: narrowing conversion of '61525' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   87 |   0xe3f4, 0xe707, 0xea1e, 0xed38, 0xf055, 0xf374, 0xf695, 0xf9b8,
+      |                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:87:43: error: narrowing conversion of '62324' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   87 |   0xe3f4, 0xe707, 0xea1e, 0xed38, 0xf055, 0xf374, 0xf695, 0xf9b8,
+      |                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:87:51: error: narrowing conversion of '63125' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   87 |   0xe3f4, 0xe707, 0xea1e, 0xed38, 0xf055, 0xf374, 0xf695, 0xf9b8,
+      |                                                   ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:87:59: error: narrowing conversion of '63928' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   87 |   0xe3f4, 0xe707, 0xea1e, 0xed38, 0xf055, 0xf374, 0xf695, 0xf9b8,
+      |                                                           ^~~~~~
+/Users/christophe/Documents/Arduino/libraries/pico-audio/src/arm_math/src/arm_cos_q15.cpp:88:3: error: narrowing conversion of '64732' from 'int' to 'q15_t' {aka 'short int'} [-Wnarrowing]
+   88 |   0xfcdc, 0x0, 0x324, 0x648, 0x96b, 0xc8c, 0xfab, 0x12c8,
+      |   ^~~~~~
+
+Using library pico-audio at version 1.0.0 in folder: /Users/christophe/Documents/Arduino/libraries/pico-audio 
+Using library I2S at version 2.0 in folder: /Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/libraries/I2S 
+Using library AudioBufferManager at version 1.0.0 in folder: /Users/christophe/Library/Arduino15/packages/rp2040/hardware/rp2040/4.5.1/libraries/AudioBufferManager 
+exit status 1
+
+Compilation error: exit status 1

@@ -8,23 +8,19 @@
 // By Richard van Hoesel
 // https://forum.pjrc.com/threads/60488?p=269756&viewfull=1#post269756
 
+#include <Adafruit_TinyUSB.h>
 #include <pico-audio.h>
 
-// I2S pins for DAC
-#define BCLK 13
-#define WS 14  // this will always be 1 pin above BCLK - can't change it
-#define I2S_DATA 15
-
-AudioSynthWaveform       waveform1;
-AudioSynthWaveform       waveform2;
-AudioSynthWaveform       waveform3;
-AudioMixer4              mixer1;
-AudioFilterLadder        filter1;
-AudioSynthWaveform       lfo1;
-AudioSynthWaveform       lfo2;
-AudioOutputI2S           i2s1;
-//AudioOutputUSB         usb1;
-//udioControlSGTL5000     sgtl5000_1;
+AudioSynthWaveform waveform1;
+AudioSynthWaveform waveform2;
+AudioSynthWaveform waveform3;
+AudioMixer4 mixer1;
+AudioFilterLadder filter1;
+AudioSynthWaveform lfo1;
+AudioSynthWaveform lfo2;
+AudioOutputI2S i2s1;
+// AudioOutputUSB         usb1;
+// udioControlSGTL5000     sgtl5000_1;
 
 AudioConnection patchCord1(waveform1, 0, mixer1, 0);
 AudioConnection patchCord2(waveform2, 0, mixer1, 1);
@@ -34,15 +30,16 @@ AudioConnection patchCord5(lfo1, 0, filter1, 1);
 AudioConnection patchCord6(lfo2, 0, filter1, 2);
 AudioConnection patchCord7(filter1, 0, i2s1, 0);
 AudioConnection patchCord8(filter1, 0, i2s1, 1);
-//AudioConnection patchCord9(filter1, 0, usb1, 0);
-//AudioConnection patchCord10(filter1, 0, usb1, 1);
+// AudioConnection patchCord9(filter1, 0, usb1, 0);
+// AudioConnection patchCord10(filter1, 0, usb1, 1);
 
-void setup() {
+void setup()
+{
   Serial.begin();
   AudioMemory(10);
-//  sgtl5000_1.enable();
-//  sgtl5000_1.volume(0.6);
-  i2s1.begin(BCLK,WS,I2S_DATA);
+  //  sgtl5000_1.enable();
+  //  sgtl5000_1.volume(0.6);
+  i2s1.begin();
   filter1.resonance(0.55);    // "lfo2" waveform overrides this setting
   filter1.frequency(800);     // "lfo1" modifies this 800 Hz setting
   filter1.octaveControl(2.6); // up 2.6 octaves (4850 Hz) & down 2.6 octaves (132 Hz)
@@ -65,7 +62,8 @@ void setup() {
   lfo2.begin(WAVEFORM_SINE);
 }
 
-void loop() {
+void loop()
+{
   Serial.print("Filter CPU Usage: ");
   Serial.print(filter1.processorUsageMax());
   Serial.print("%, Total CPU Usage: ");
@@ -73,7 +71,7 @@ void loop() {
   Serial.print("%");
   Serial.print(" Mem = ");
   Serial.print(AudioMemoryUsage());
-  Serial.print(" (");    
+  Serial.print(" (");
   Serial.print(AudioMemoryUsageMax());
   Serial.println(")");
   filter1.processorUsageMaxReset();

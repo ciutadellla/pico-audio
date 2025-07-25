@@ -1,3 +1,5 @@
+
+#include <Adafruit_TinyUSB.h>
 #include <pico-audio.h>
 #include <Bounce2.h> // version 2.55
 

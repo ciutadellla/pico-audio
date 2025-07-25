@@ -13,6 +13,7 @@
 // This example code is in the public domain.
 
 
+#include <Adafruit_TinyUSB.h>
 #include <pico-audio.h>
 #include <Wire.h>
 #include <SPI.h>
@@ -41,7 +42,7 @@ AudioConnection          patchCord7(mixer1, 0, DAC, 1);
 
 void setup() {
 
-  Serial.begin();
+  Serial.begin(115200);
 
   // enable the audio shield
  // sgtl5000_1.enable();
