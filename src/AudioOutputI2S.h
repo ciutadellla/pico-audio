@@ -7,10 +7,10 @@
 
 class AudioOutputI2S : public AudioStream {
 protected:
-  static I2S i2s;
   audio_block_t *inputQueueArray[2];
 
 public:
+  static I2S i2s;
   AudioOutputI2S();
   void begin(uint pBCLK, uint pWS, uint pDOUT);
   void update();
