@@ -12,8 +12,6 @@ This fork has been modifed from the original 96k/256 sample port to use 44.1k sa
 
 The library currently supports 16 bit I2S audio output only and does not yet support audio input.
 
-This library requires the Arduino CMSIS-DSP library (currently V 5.7.0) to be installed.
-
 Library has two added modules: Synth_DaisySP and Effect_DaisySP which allow usage of Electrosmith's DaisySP DSP library with Teensy Audio. 
 https://github.com/electro-smith/DaisySP
 https://github.com/rheslip/DaisySP_Teensy
@@ -27,4 +25,3 @@ Known Issues:
 
 Sometimes memory usage reports wildly wrong numbers
 
-FFT functions still not working reliably
