@@ -1,4 +1,5 @@
 
+#include <Adafruit_TinyUSB.h>
 #include <pico-audio.h>
 
 // GUItool: begin automatically generated code
