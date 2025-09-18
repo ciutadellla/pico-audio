@@ -25,3 +25,17 @@ Known Issues:
 
 Sometimes memory usage reports wildly wrong numbers
 
+## New Features:
+    - Multi codec AIC3204/PCM5102
+    - Input and Output
+    - Codec examples
+    - PiFosti Board Example
+    - Platformio to test Arduino Examples
+
+## TODO:
+    - SGLT5000
+    - analyze_fft256
+
+## Notes:
+    - Had to reduce to 16000/64 SAMPLE_RATE/BLOCK_SAMPLES for audioInput/audioOutput to work.
+    - Move SAMPLE_RATE/BLOCK_SAMPLES to enums.h unify into a single file and share it with codec files.
