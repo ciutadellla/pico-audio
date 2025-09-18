@@ -7,7 +7,6 @@
 #include "AudioInputI2S.h"
 #include "AudioOutputI2S.h"
 
-// C library includes
 extern "C" {
     #include "aic3204_i2s.pio.h"
     #include "aic3204.h"

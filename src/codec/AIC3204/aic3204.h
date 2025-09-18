@@ -1,6 +1,3 @@
-// This file unifies the code from codec.cpp and codec.h into a single header file.
-// It includes all necessary libraries, defines constants, declares global variables,
-// and provides the full implementation of the audio codec initialization and control functions.
 #pragma once
 #ifndef CODEC_H
 #define CODEC_H
@@ -27,7 +24,6 @@ extern "C" {
 #include "pico/binary_info.h"
 #include "pico/multicore.h"
 
-// Assuming these files exist in the project, as they are included in the original source
 #include "enums.h"
 #include "codec/AIC3204/aic3204.h"
 #include "codec/AIC3204/aic3204_i2s.pio.h"
