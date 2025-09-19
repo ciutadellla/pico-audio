@@ -29,7 +29,6 @@ Sometimes memory usage reports wildly wrong numbers
     - Multi codec AIC3204/PCM5102
     - Input and Output
     - Codec examples
-    - PiFosti Board Example
     - Platformio to test Arduino Examples
 
 ### TODO:
